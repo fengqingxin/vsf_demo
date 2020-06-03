@@ -1,0 +1,6 @@
+[submodule "vsf"]
+	path = vsf
+	url = https://github.com/vsfteam/vsf.git
+[submodule "VisualBoyAdvance"]
+	path = VisualBoyAdvance
+	url = https://github.com/x3ro/VisualBoyAdvance.git

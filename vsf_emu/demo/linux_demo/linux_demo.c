@@ -74,6 +74,10 @@ extern int mount_file_main(int argc, char *argv[]);
 extern int vsfvm_main(int argc, char *argv[]);
 #endif
 
+#if APP_CFG_USE_XBOOT_XUI_DEMO == ENABLED
+extern int xui_main(int argc, char ** argv);
+#endif
+
 #if APP_CFG_USE_FREETYPE_DEMO == ENABLED
 extern void freetype_demo_init(void);
 #endif
@@ -138,6 +142,10 @@ int vsf_linux_create_fhs(void)
 #if VSF_USE_LINUX_LIBUSB == ENABLED && APP_CFG_USE_LINUX_LIBUSB_DEMO == ENABLED
     busybox_bind("/sbin/lsusb", lsusb_main);
     vsf_linux_libusb_startup();
+#endif
+
+#if APP_CFG_USE_XBOOT_XUI_DEMO == ENABLED
+    busybox_bind("/sbin/xui", xui_main);
 #endif
 
 #if APP_CFG_USE_AUDIO_DEMO == ENABLED

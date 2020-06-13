@@ -49,6 +49,7 @@
 #   if APP_CFG_USE_XBOOT_XUI_DEMO == ENABLED
 #       define APP_CFG_USE_FREETYPE_DEMO                ENABLED
 #       define APP_CFG_XBOOT_RES_DIR                    "./winfs_root/ui/"
+#       define VSF_USE_XBOOT                            ENABLED
 #   endif
 
 #endif

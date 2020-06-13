@@ -20,4 +20,8 @@ port game emulators to vsf
 3. Start with command: vba ./winfs_root/vba/xxxx.gba
 
 ## freetype
-1. ~~Apply patches/freetype.patch to freetype~~
+1. ~~Apply patches/freetype.patch to freetype~~(already applied)
+
+## xboot
+1. switch to test_xui branch
+2. remove assert.h/ctype.h/io.h/malloc.h/math.h/stdarg.h/stdint.h/stdio.h/stdlib.h/string.h/time.h in xboot/src/include

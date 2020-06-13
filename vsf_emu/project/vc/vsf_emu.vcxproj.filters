@@ -562,6 +562,36 @@
     <Filter Include="usrapp\demo\freetype_demo\freetype\src\cid">
       <UniqueIdentifier>{cf364780-5022-4d4c-88fe-2774b154d528}</UniqueIdentifier>
     </Filter>
+    <Filter Include="usrapp\demo\xui_demo">
+      <UniqueIdentifier>{e3263baf-cc6d-4d7c-8c24-4c3c414464db}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="usrapp\demo\xui_demo\xboot">
+      <UniqueIdentifier>{f4778c20-eda9-48c3-98ee-54858334f84f}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="usrapp\demo\xui_demo\xboot\src">
+      <UniqueIdentifier>{6dbec204-8ac0-40ec-ada2-7095e3df210a}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="usrapp\demo\xui_demo\xboot\src\external">
+      <UniqueIdentifier>{f264288d-ef4d-46e7-8cca-975fcd0f3cbd}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="usrapp\demo\xui_demo\xboot\src\external\libjpeg">
+      <UniqueIdentifier>{1830633e-e5bf-4c2b-88fa-19fbf22f9dcc}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="usrapp\demo\xui_demo\xboot\src\external\libpng">
+      <UniqueIdentifier>{fe605175-8b02-4731-8ea2-6a9143f67a02}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="usrapp\demo\xui_demo\xboot\src\kernel">
+      <UniqueIdentifier>{82ca0fda-5382-4519-a5e6-e7cb95758c5e}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="usrapp\demo\xui_demo\xboot\src\kernel\graphic">
+      <UniqueIdentifier>{1299d5cb-ae73-4a4c-a9ea-177e5bfa40e3}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="usrapp\demo\xui_demo\xboot\src\kernel\xui">
+      <UniqueIdentifier>{4e7dfc34-76cd-46af-b43b-0e2b07c0e2ff}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="usrapp\demo\xui_demo\xboot\src\lib">
+      <UniqueIdentifier>{fb484d6e-80d3-4380-8630-d0ca12693a45}</UniqueIdentifier>
+    </Filter>
   </ItemGroup>
   <ItemGroup>
     <ClInclude Include="..\..\..\vsf\source\vsf\vsf.h">
@@ -1731,6 +1761,57 @@
     <ClInclude Include="..\..\..\freetype\include\freetype\config\ftstdlib.h">
       <Filter>usrapp\demo\freetype_demo\freetype\include\freetype\config</Filter>
     </ClInclude>
+    <ClInclude Include="..\..\..\xboot\src\external\jpeg-9c\jconfig.h">
+      <Filter>usrapp\demo\xui_demo\xboot\src\external\libjpeg</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\xboot\src\external\jpeg-9c\jdct.h">
+      <Filter>usrapp\demo\xui_demo\xboot\src\external\libjpeg</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\xboot\src\external\jpeg-9c\jerror.h">
+      <Filter>usrapp\demo\xui_demo\xboot\src\external\libjpeg</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\xboot\src\external\jpeg-9c\jinclude.h">
+      <Filter>usrapp\demo\xui_demo\xboot\src\external\libjpeg</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\xboot\src\external\jpeg-9c\jmemsys.h">
+      <Filter>usrapp\demo\xui_demo\xboot\src\external\libjpeg</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\xboot\src\external\jpeg-9c\jmorecfg.h">
+      <Filter>usrapp\demo\xui_demo\xboot\src\external\libjpeg</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\xboot\src\external\jpeg-9c\jpegint.h">
+      <Filter>usrapp\demo\xui_demo\xboot\src\external\libjpeg</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\xboot\src\external\jpeg-9c\jpeglib.h">
+      <Filter>usrapp\demo\xui_demo\xboot\src\external\libjpeg</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\xboot\src\external\jpeg-9c\jversion.h">
+      <Filter>usrapp\demo\xui_demo\xboot\src\external\libjpeg</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\xboot\src\external\libpng-1.6.37\png.h">
+      <Filter>usrapp\demo\xui_demo\xboot\src\external\libpng</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\xboot\src\external\libpng-1.6.37\pngconf.h">
+      <Filter>usrapp\demo\xui_demo\xboot\src\external\libpng</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\xboot\src\external\libpng-1.6.37\pngdebug.h">
+      <Filter>usrapp\demo\xui_demo\xboot\src\external\libpng</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\xboot\src\external\libpng-1.6.37\pnginfo.h">
+      <Filter>usrapp\demo\xui_demo\xboot\src\external\libpng</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\xboot\src\external\libpng-1.6.37\pnglibconf.h">
+      <Filter>usrapp\demo\xui_demo\xboot\src\external\libpng</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\xboot\src\external\libpng-1.6.37\pngprefix.h">
+      <Filter>usrapp\demo\xui_demo\xboot\src\external\libpng</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\xboot\src\external\libpng-1.6.37\pngpriv.h">
+      <Filter>usrapp\demo\xui_demo\xboot\src\external\libpng</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\xboot\src\external\libpng-1.6.37\pngstruct.h">
+      <Filter>usrapp\demo\xui_demo\xboot\src\external\libpng</Filter>
+    </ClInclude>
   </ItemGroup>
   <ItemGroup>
     <ClCompile Include="..\..\..\vsf\source\vsf\utilities\compiler\x86\signal.c">
@@ -2491,6 +2572,267 @@
     </ClCompile>
     <ClCompile Include="..\..\..\freetype\src\cid\type1cid.c">
       <Filter>usrapp\demo\freetype_demo\freetype\src\cid</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\xboot\src\external\jpeg-9c\jaricom.c">
+      <Filter>usrapp\demo\xui_demo\xboot\src\external\libjpeg</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\xboot\src\external\jpeg-9c\jcapimin.c">
+      <Filter>usrapp\demo\xui_demo\xboot\src\external\libjpeg</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\xboot\src\external\jpeg-9c\jcapistd.c">
+      <Filter>usrapp\demo\xui_demo\xboot\src\external\libjpeg</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\xboot\src\external\jpeg-9c\jcarith.c">
+      <Filter>usrapp\demo\xui_demo\xboot\src\external\libjpeg</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\xboot\src\external\jpeg-9c\jccoefct.c">
+      <Filter>usrapp\demo\xui_demo\xboot\src\external\libjpeg</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\xboot\src\external\jpeg-9c\jccolor.c">
+      <Filter>usrapp\demo\xui_demo\xboot\src\external\libjpeg</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\xboot\src\external\jpeg-9c\jcdctmgr.c">
+      <Filter>usrapp\demo\xui_demo\xboot\src\external\libjpeg</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\xboot\src\external\jpeg-9c\jchuff.c">
+      <Filter>usrapp\demo\xui_demo\xboot\src\external\libjpeg</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\xboot\src\external\jpeg-9c\jcinit.c">
+      <Filter>usrapp\demo\xui_demo\xboot\src\external\libjpeg</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\xboot\src\external\jpeg-9c\jcmainct.c">
+      <Filter>usrapp\demo\xui_demo\xboot\src\external\libjpeg</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\xboot\src\external\jpeg-9c\jcmarker.c">
+      <Filter>usrapp\demo\xui_demo\xboot\src\external\libjpeg</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\xboot\src\external\jpeg-9c\jcmaster.c">
+      <Filter>usrapp\demo\xui_demo\xboot\src\external\libjpeg</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\xboot\src\external\jpeg-9c\jcomapi.c">
+      <Filter>usrapp\demo\xui_demo\xboot\src\external\libjpeg</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\xboot\src\external\jpeg-9c\jcparam.c">
+      <Filter>usrapp\demo\xui_demo\xboot\src\external\libjpeg</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\xboot\src\external\jpeg-9c\jcprepct.c">
+      <Filter>usrapp\demo\xui_demo\xboot\src\external\libjpeg</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\xboot\src\external\jpeg-9c\jcsample.c">
+      <Filter>usrapp\demo\xui_demo\xboot\src\external\libjpeg</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\xboot\src\external\jpeg-9c\jctrans.c">
+      <Filter>usrapp\demo\xui_demo\xboot\src\external\libjpeg</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\xboot\src\external\jpeg-9c\jdapimin.c">
+      <Filter>usrapp\demo\xui_demo\xboot\src\external\libjpeg</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\xboot\src\external\jpeg-9c\jdapistd.c">
+      <Filter>usrapp\demo\xui_demo\xboot\src\external\libjpeg</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\xboot\src\external\jpeg-9c\jdarith.c">
+      <Filter>usrapp\demo\xui_demo\xboot\src\external\libjpeg</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\xboot\src\external\jpeg-9c\jdatadst.c">
+      <Filter>usrapp\demo\xui_demo\xboot\src\external\libjpeg</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\xboot\src\external\jpeg-9c\jdatasrc.c">
+      <Filter>usrapp\demo\xui_demo\xboot\src\external\libjpeg</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\xboot\src\external\jpeg-9c\jdcoefct.c">
+      <Filter>usrapp\demo\xui_demo\xboot\src\external\libjpeg</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\xboot\src\external\jpeg-9c\jdcolor.c">
+      <Filter>usrapp\demo\xui_demo\xboot\src\external\libjpeg</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\xboot\src\external\jpeg-9c\jddctmgr.c">
+      <Filter>usrapp\demo\xui_demo\xboot\src\external\libjpeg</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\xboot\src\external\jpeg-9c\jdhuff.c">
+      <Filter>usrapp\demo\xui_demo\xboot\src\external\libjpeg</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\xboot\src\external\jpeg-9c\jdinput.c">
+      <Filter>usrapp\demo\xui_demo\xboot\src\external\libjpeg</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\xboot\src\external\jpeg-9c\jdmainct.c">
+      <Filter>usrapp\demo\xui_demo\xboot\src\external\libjpeg</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\xboot\src\external\jpeg-9c\jdmarker.c">
+      <Filter>usrapp\demo\xui_demo\xboot\src\external\libjpeg</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\xboot\src\external\jpeg-9c\jdmaster.c">
+      <Filter>usrapp\demo\xui_demo\xboot\src\external\libjpeg</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\xboot\src\external\jpeg-9c\jdmerge.c">
+      <Filter>usrapp\demo\xui_demo\xboot\src\external\libjpeg</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\xboot\src\external\jpeg-9c\jdpostct.c">
+      <Filter>usrapp\demo\xui_demo\xboot\src\external\libjpeg</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\xboot\src\external\jpeg-9c\jdsample.c">
+      <Filter>usrapp\demo\xui_demo\xboot\src\external\libjpeg</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\xboot\src\external\jpeg-9c\jdtrans.c">
+      <Filter>usrapp\demo\xui_demo\xboot\src\external\libjpeg</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\xboot\src\external\jpeg-9c\jerror.c">
+      <Filter>usrapp\demo\xui_demo\xboot\src\external\libjpeg</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\xboot\src\external\jpeg-9c\jfdctflt.c">
+      <Filter>usrapp\demo\xui_demo\xboot\src\external\libjpeg</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\xboot\src\external\jpeg-9c\jfdctfst.c">
+      <Filter>usrapp\demo\xui_demo\xboot\src\external\libjpeg</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\xboot\src\external\jpeg-9c\jfdctint.c">
+      <Filter>usrapp\demo\xui_demo\xboot\src\external\libjpeg</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\xboot\src\external\jpeg-9c\jidctflt.c">
+      <Filter>usrapp\demo\xui_demo\xboot\src\external\libjpeg</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\xboot\src\external\jpeg-9c\jidctfst.c">
+      <Filter>usrapp\demo\xui_demo\xboot\src\external\libjpeg</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\xboot\src\external\jpeg-9c\jidctint.c">
+      <Filter>usrapp\demo\xui_demo\xboot\src\external\libjpeg</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\xboot\src\external\jpeg-9c\jmemmgr.c">
+      <Filter>usrapp\demo\xui_demo\xboot\src\external\libjpeg</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\xboot\src\external\jpeg-9c\jmemnobs.c">
+      <Filter>usrapp\demo\xui_demo\xboot\src\external\libjpeg</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\xboot\src\external\jpeg-9c\jquant1.c">
+      <Filter>usrapp\demo\xui_demo\xboot\src\external\libjpeg</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\xboot\src\external\jpeg-9c\jquant2.c">
+      <Filter>usrapp\demo\xui_demo\xboot\src\external\libjpeg</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\xboot\src\external\jpeg-9c\jutils.c">
+      <Filter>usrapp\demo\xui_demo\xboot\src\external\libjpeg</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\xboot\src\external\libpng-1.6.37\png.c">
+      <Filter>usrapp\demo\xui_demo\xboot\src\external\libpng</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\xboot\src\external\libpng-1.6.37\pngerror.c">
+      <Filter>usrapp\demo\xui_demo\xboot\src\external\libpng</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\xboot\src\external\libpng-1.6.37\pngget.c">
+      <Filter>usrapp\demo\xui_demo\xboot\src\external\libpng</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\xboot\src\external\libpng-1.6.37\pngmem.c">
+      <Filter>usrapp\demo\xui_demo\xboot\src\external\libpng</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\xboot\src\external\libpng-1.6.37\pngpread.c">
+      <Filter>usrapp\demo\xui_demo\xboot\src\external\libpng</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\xboot\src\external\libpng-1.6.37\pngread.c">
+      <Filter>usrapp\demo\xui_demo\xboot\src\external\libpng</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\xboot\src\external\libpng-1.6.37\pngrio.c">
+      <Filter>usrapp\demo\xui_demo\xboot\src\external\libpng</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\xboot\src\external\libpng-1.6.37\pngrtran.c">
+      <Filter>usrapp\demo\xui_demo\xboot\src\external\libpng</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\xboot\src\external\libpng-1.6.37\pngrutil.c">
+      <Filter>usrapp\demo\xui_demo\xboot\src\external\libpng</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\xboot\src\external\libpng-1.6.37\pngset.c">
+      <Filter>usrapp\demo\xui_demo\xboot\src\external\libpng</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\xboot\src\external\libpng-1.6.37\pngtrans.c">
+      <Filter>usrapp\demo\xui_demo\xboot\src\external\libpng</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\xboot\src\external\libpng-1.6.37\pngwio.c">
+      <Filter>usrapp\demo\xui_demo\xboot\src\external\libpng</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\xboot\src\external\libpng-1.6.37\pngwrite.c">
+      <Filter>usrapp\demo\xui_demo\xboot\src\external\libpng</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\xboot\src\external\libpng-1.6.37\pngwtran.c">
+      <Filter>usrapp\demo\xui_demo\xboot\src\external\libpng</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\xboot\src\external\libpng-1.6.37\pngwutil.c">
+      <Filter>usrapp\demo\xui_demo\xboot\src\external\libpng</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\xboot\src\kernel\graphic\color.c">
+      <Filter>usrapp\demo\xui_demo\xboot\src\kernel\graphic</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\xboot\src\kernel\graphic\font.c">
+      <Filter>usrapp\demo\xui_demo\xboot\src\kernel\graphic</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\xboot\src\kernel\graphic\matrix.c">
+      <Filter>usrapp\demo\xui_demo\xboot\src\kernel\graphic</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\xboot\src\kernel\graphic\region.c">
+      <Filter>usrapp\demo\xui_demo\xboot\src\kernel\graphic</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\xboot\src\kernel\graphic\render.c">
+      <Filter>usrapp\demo\xui_demo\xboot\src\kernel\graphic</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\xboot\src\kernel\graphic\surface.c">
+      <Filter>usrapp\demo\xui_demo\xboot\src\kernel\graphic</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\xboot\src\kernel\graphic\svg.c">
+      <Filter>usrapp\demo\xui_demo\xboot\src\kernel\graphic</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\xboot\src\kernel\graphic\svg-raster.c">
+      <Filter>usrapp\demo\xui_demo\xboot\src\kernel\graphic</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\xboot\src\kernel\graphic\text.c">
+      <Filter>usrapp\demo\xui_demo\xboot\src\kernel\graphic</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\xboot\src\kernel\xui\xui.c">
+      <Filter>usrapp\demo\xui_demo\xboot\src\kernel\xui</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\xboot\src\kernel\xui\xui-badge.c">
+      <Filter>usrapp\demo\xui_demo\xboot\src\kernel\xui</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\xboot\src\kernel\xui\xui-button.c">
+      <Filter>usrapp\demo\xui_demo\xboot\src\kernel\xui</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\xboot\src\kernel\xui\xui-checkbox.c">
+      <Filter>usrapp\demo\xui_demo\xboot\src\kernel\xui</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\xboot\src\kernel\xui\xui-label.c">
+      <Filter>usrapp\demo\xui_demo\xboot\src\kernel\xui</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\xboot\src\kernel\xui\xui-panel.c">
+      <Filter>usrapp\demo\xui_demo\xboot\src\kernel\xui</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\xboot\src\kernel\xui\xui-popup.c">
+      <Filter>usrapp\demo\xui_demo\xboot\src\kernel\xui</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\xboot\src\kernel\xui\xui-progress.c">
+      <Filter>usrapp\demo\xui_demo\xboot\src\kernel\xui</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\xboot\src\kernel\xui\xui-radialbar.c">
+      <Filter>usrapp\demo\xui_demo\xboot\src\kernel\xui</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\xboot\src\kernel\xui\xui-radio.c">
+      <Filter>usrapp\demo\xui_demo\xboot\src\kernel\xui</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\xboot\src\kernel\xui\xui-spinner.c">
+      <Filter>usrapp\demo\xui_demo\xboot\src\kernel\xui</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\xboot\src\kernel\xui\xui-split.c">
+      <Filter>usrapp\demo\xui_demo\xboot\src\kernel\xui</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\xboot\src\kernel\xui\xui-text.c">
+      <Filter>usrapp\demo\xui_demo\xboot\src\kernel\xui</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\xboot\src\kernel\xui\xui-toggle.c">
+      <Filter>usrapp\demo\xui_demo\xboot\src\kernel\xui</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\xboot\src\kernel\xui\xui-window.c">
+      <Filter>usrapp\demo\xui_demo\xboot\src\kernel\xui</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\xboot\src\lib\libc\charset\charset.c">
+      <Filter>usrapp\demo\xui_demo\xboot\src\lib</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\demo\xui_demo\xui_demo.c">
+      <Filter>usrapp\demo\xui_demo</Filter>
     </ClCompile>
   </ItemGroup>
   <ItemGroup>

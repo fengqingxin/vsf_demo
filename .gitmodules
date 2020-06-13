@@ -4,3 +4,6 @@
 [submodule "VisualBoyAdvance"]
 	path = VisualBoyAdvance
 	url = https://github.com/x3ro/VisualBoyAdvance.git
+[submodule "xboot"]
+	path = xboot
+	url = https://github.com/xboot/xboot.git

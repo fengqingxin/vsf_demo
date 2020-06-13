@@ -376,6 +376,17 @@
     <ClInclude Include="..\..\..\xboot\src\external\libpng-1.6.37\pngprefix.h" />
     <ClInclude Include="..\..\..\xboot\src\external\libpng-1.6.37\pngpriv.h" />
     <ClInclude Include="..\..\..\xboot\src\external\libpng-1.6.37\pngstruct.h" />
+    <ClInclude Include="..\..\..\zlib\crc32.h" />
+    <ClInclude Include="..\..\..\zlib\deflate.h" />
+    <ClInclude Include="..\..\..\zlib\gzguts.h" />
+    <ClInclude Include="..\..\..\zlib\inffast.h" />
+    <ClInclude Include="..\..\..\zlib\inffixed.h" />
+    <ClInclude Include="..\..\..\zlib\inflate.h" />
+    <ClInclude Include="..\..\..\zlib\inftrees.h" />
+    <ClInclude Include="..\..\..\zlib\trees.h" />
+    <ClInclude Include="..\..\..\zlib\zconf.h" />
+    <ClInclude Include="..\..\..\zlib\zlib.h" />
+    <ClInclude Include="..\..\..\zlib\zutil.h" />
     <ClInclude Include="..\..\config\vsf_usr_cfg.h" />
     <ClInclude Include="..\..\demo\common\usrapp_audio_common.h" />
     <ClInclude Include="..\..\demo\common\usrapp_common.h" />
@@ -415,16 +426,6 @@
     <ClInclude Include="..\..\..\VisualBoyAdvance\src\Text.h" />
     <ClInclude Include="..\..\..\VisualBoyAdvance\src\unzip.h" />
     <ClInclude Include="..\..\..\VisualBoyAdvance\src\Util.h" />
-    <ClInclude Include="..\..\..\VisualBoyAdvance\win32\dependencies\zlib\crc32.h" />
-    <ClInclude Include="..\..\..\VisualBoyAdvance\win32\dependencies\zlib\deflate.h" />
-    <ClInclude Include="..\..\..\VisualBoyAdvance\win32\dependencies\zlib\inffast.h" />
-    <ClInclude Include="..\..\..\VisualBoyAdvance\win32\dependencies\zlib\inffixed.h" />
-    <ClInclude Include="..\..\..\VisualBoyAdvance\win32\dependencies\zlib\inflate.h" />
-    <ClInclude Include="..\..\..\VisualBoyAdvance\win32\dependencies\zlib\inftrees.h" />
-    <ClInclude Include="..\..\..\VisualBoyAdvance\win32\dependencies\zlib\trees.h" />
-    <ClInclude Include="..\..\..\VisualBoyAdvance\win32\dependencies\zlib\zconf.h" />
-    <ClInclude Include="..\..\..\VisualBoyAdvance\win32\dependencies\zlib\zlib.h" />
-    <ClInclude Include="..\..\..\VisualBoyAdvance\win32\dependencies\zlib\zutil.h" />
   </ItemGroup>
   <ItemGroup>
     <ClCompile Include="..\..\..\freetype\builds\vsf\ftdebug.c" />
@@ -696,6 +697,21 @@
     <ClCompile Include="..\..\..\xboot\src\kernel\xui\xui-window.c" />
     <ClCompile Include="..\..\..\xboot\src\kernel\xui\xui.c" />
     <ClCompile Include="..\..\..\xboot\src\lib\libc\charset\charset.c" />
+    <ClCompile Include="..\..\..\zlib\adler32.c" />
+    <ClCompile Include="..\..\..\zlib\compress.c" />
+    <ClCompile Include="..\..\..\zlib\crc32.c" />
+    <ClCompile Include="..\..\..\zlib\deflate.c" />
+    <ClCompile Include="..\..\..\zlib\gzclose.c" />
+    <ClCompile Include="..\..\..\zlib\gzlib.c" />
+    <ClCompile Include="..\..\..\zlib\gzread.c" />
+    <ClCompile Include="..\..\..\zlib\gzwrite.c" />
+    <ClCompile Include="..\..\..\zlib\infback.c" />
+    <ClCompile Include="..\..\..\zlib\inffast.c" />
+    <ClCompile Include="..\..\..\zlib\inflate.c" />
+    <ClCompile Include="..\..\..\zlib\inftrees.c" />
+    <ClCompile Include="..\..\..\zlib\trees.c" />
+    <ClCompile Include="..\..\..\zlib\uncompr.c" />
+    <ClCompile Include="..\..\..\zlib\zutil.c" />
     <ClCompile Include="..\..\demo\audio_demo\audio_demo.c" />
     <ClCompile Include="..\..\demo\common\usrapp_audio_common.c" />
     <ClCompile Include="..\..\demo\common\usrapp_common.c" />
@@ -770,18 +786,6 @@
     <ClCompile Include="..\..\..\VisualBoyAdvance\src\Text.cpp" />
     <ClCompile Include="..\..\..\VisualBoyAdvance\src\unzip.cpp" />
     <ClCompile Include="..\..\..\VisualBoyAdvance\src\Util.cpp" />
-    <ClCompile Include="..\..\..\VisualBoyAdvance\win32\dependencies\zlib\adler32.c" />
-    <ClCompile Include="..\..\..\VisualBoyAdvance\win32\dependencies\zlib\compress.c" />
-    <ClCompile Include="..\..\..\VisualBoyAdvance\win32\dependencies\zlib\crc32.c" />
-    <ClCompile Include="..\..\..\VisualBoyAdvance\win32\dependencies\zlib\deflate.c" />
-    <ClCompile Include="..\..\..\VisualBoyAdvance\win32\dependencies\zlib\gzio.c" />
-    <ClCompile Include="..\..\..\VisualBoyAdvance\win32\dependencies\zlib\infback.c" />
-    <ClCompile Include="..\..\..\VisualBoyAdvance\win32\dependencies\zlib\inffast.c" />
-    <ClCompile Include="..\..\..\VisualBoyAdvance\win32\dependencies\zlib\inflate.c" />
-    <ClCompile Include="..\..\..\VisualBoyAdvance\win32\dependencies\zlib\inftrees.c" />
-    <ClCompile Include="..\..\..\VisualBoyAdvance\win32\dependencies\zlib\trees.c" />
-    <ClCompile Include="..\..\..\VisualBoyAdvance\win32\dependencies\zlib\uncompr.c" />
-    <ClCompile Include="..\..\..\VisualBoyAdvance\win32\dependencies\zlib\zutil.c" />
     <ClCompile Include="..\..\demo\xui_demo\xui_demo.c" />
   </ItemGroup>
   <ItemGroup>

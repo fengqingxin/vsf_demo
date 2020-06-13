@@ -433,9 +433,6 @@
     <Filter Include="usrapp\demo\vba_demo">
       <UniqueIdentifier>{015f661f-f1d0-4906-9b9a-2ad620d3390c}</UniqueIdentifier>
     </Filter>
-    <Filter Include="usrapp\demo\vba_demo\zlib">
-      <UniqueIdentifier>{1a4e05f4-f9bf-464d-a0e4-851f7255b066}</UniqueIdentifier>
-    </Filter>
     <Filter Include="usrapp\demo\vba_demo\VisualBoyAdvance">
       <UniqueIdentifier>{1892add4-07e8-4e5c-a5f9-dc4f72eff363}</UniqueIdentifier>
     </Filter>
@@ -591,6 +588,12 @@
     </Filter>
     <Filter Include="usrapp\demo\xui_demo\xboot\src\lib">
       <UniqueIdentifier>{fb484d6e-80d3-4380-8630-d0ca12693a45}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="usrapp\demo\lib">
+      <UniqueIdentifier>{0203f930-71e7-4c24-a288-a4cf863fd5f7}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="usrapp\demo\lib\zlib">
+      <UniqueIdentifier>{b5a97e24-3809-4f06-bfeb-f79df78743ef}</UniqueIdentifier>
     </Filter>
   </ItemGroup>
   <ItemGroup>
@@ -1419,36 +1422,6 @@
     <ClInclude Include="..\..\..\VisualBoyAdvance\src\Text.h">
       <Filter>usrapp\demo\vba_demo\VisualBoyAdvance\SDL</Filter>
     </ClInclude>
-    <ClInclude Include="..\..\..\VisualBoyAdvance\win32\dependencies\zlib\crc32.h">
-      <Filter>usrapp\demo\vba_demo\zlib</Filter>
-    </ClInclude>
-    <ClInclude Include="..\..\..\VisualBoyAdvance\win32\dependencies\zlib\deflate.h">
-      <Filter>usrapp\demo\vba_demo\zlib</Filter>
-    </ClInclude>
-    <ClInclude Include="..\..\..\VisualBoyAdvance\win32\dependencies\zlib\inffast.h">
-      <Filter>usrapp\demo\vba_demo\zlib</Filter>
-    </ClInclude>
-    <ClInclude Include="..\..\..\VisualBoyAdvance\win32\dependencies\zlib\inffixed.h">
-      <Filter>usrapp\demo\vba_demo\zlib</Filter>
-    </ClInclude>
-    <ClInclude Include="..\..\..\VisualBoyAdvance\win32\dependencies\zlib\inflate.h">
-      <Filter>usrapp\demo\vba_demo\zlib</Filter>
-    </ClInclude>
-    <ClInclude Include="..\..\..\VisualBoyAdvance\win32\dependencies\zlib\inftrees.h">
-      <Filter>usrapp\demo\vba_demo\zlib</Filter>
-    </ClInclude>
-    <ClInclude Include="..\..\..\VisualBoyAdvance\win32\dependencies\zlib\trees.h">
-      <Filter>usrapp\demo\vba_demo\zlib</Filter>
-    </ClInclude>
-    <ClInclude Include="..\..\..\VisualBoyAdvance\win32\dependencies\zlib\zconf.h">
-      <Filter>usrapp\demo\vba_demo\zlib</Filter>
-    </ClInclude>
-    <ClInclude Include="..\..\..\VisualBoyAdvance\win32\dependencies\zlib\zlib.h">
-      <Filter>usrapp\demo\vba_demo\zlib</Filter>
-    </ClInclude>
-    <ClInclude Include="..\..\..\VisualBoyAdvance\win32\dependencies\zlib\zutil.h">
-      <Filter>usrapp\demo\vba_demo\zlib</Filter>
-    </ClInclude>
     <ClInclude Include="..\..\..\vsf\source\vsf\shell\sys\xboot\vsf_xboot_cfg.h">
       <Filter>vsf\shell\sys\xboot</Filter>
     </ClInclude>
@@ -1811,6 +1784,39 @@
     </ClInclude>
     <ClInclude Include="..\..\..\xboot\src\external\libpng-1.6.37\pngstruct.h">
       <Filter>usrapp\demo\xui_demo\xboot\src\external\libpng</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\zlib\crc32.h">
+      <Filter>usrapp\demo\lib\zlib</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\zlib\deflate.h">
+      <Filter>usrapp\demo\lib\zlib</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\zlib\gzguts.h">
+      <Filter>usrapp\demo\lib\zlib</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\zlib\inffast.h">
+      <Filter>usrapp\demo\lib\zlib</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\zlib\inffixed.h">
+      <Filter>usrapp\demo\lib\zlib</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\zlib\inflate.h">
+      <Filter>usrapp\demo\lib\zlib</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\zlib\inftrees.h">
+      <Filter>usrapp\demo\lib\zlib</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\zlib\trees.h">
+      <Filter>usrapp\demo\lib\zlib</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\zlib\zconf.h">
+      <Filter>usrapp\demo\lib\zlib</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\zlib\zlib.h">
+      <Filter>usrapp\demo\lib\zlib</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\zlib\zutil.h">
+      <Filter>usrapp\demo\lib\zlib</Filter>
     </ClInclude>
   </ItemGroup>
   <ItemGroup>
@@ -2408,42 +2414,6 @@
     <ClCompile Include="..\..\..\VisualBoyAdvance\src\prof\prof.cpp">
       <Filter>usrapp\demo\vba_demo\VisualBoyAdvance\SDL</Filter>
     </ClCompile>
-    <ClCompile Include="..\..\..\VisualBoyAdvance\win32\dependencies\zlib\adler32.c">
-      <Filter>usrapp\demo\vba_demo\zlib</Filter>
-    </ClCompile>
-    <ClCompile Include="..\..\..\VisualBoyAdvance\win32\dependencies\zlib\compress.c">
-      <Filter>usrapp\demo\vba_demo\zlib</Filter>
-    </ClCompile>
-    <ClCompile Include="..\..\..\VisualBoyAdvance\win32\dependencies\zlib\crc32.c">
-      <Filter>usrapp\demo\vba_demo\zlib</Filter>
-    </ClCompile>
-    <ClCompile Include="..\..\..\VisualBoyAdvance\win32\dependencies\zlib\deflate.c">
-      <Filter>usrapp\demo\vba_demo\zlib</Filter>
-    </ClCompile>
-    <ClCompile Include="..\..\..\VisualBoyAdvance\win32\dependencies\zlib\gzio.c">
-      <Filter>usrapp\demo\vba_demo\zlib</Filter>
-    </ClCompile>
-    <ClCompile Include="..\..\..\VisualBoyAdvance\win32\dependencies\zlib\infback.c">
-      <Filter>usrapp\demo\vba_demo\zlib</Filter>
-    </ClCompile>
-    <ClCompile Include="..\..\..\VisualBoyAdvance\win32\dependencies\zlib\inffast.c">
-      <Filter>usrapp\demo\vba_demo\zlib</Filter>
-    </ClCompile>
-    <ClCompile Include="..\..\..\VisualBoyAdvance\win32\dependencies\zlib\inflate.c">
-      <Filter>usrapp\demo\vba_demo\zlib</Filter>
-    </ClCompile>
-    <ClCompile Include="..\..\..\VisualBoyAdvance\win32\dependencies\zlib\inftrees.c">
-      <Filter>usrapp\demo\vba_demo\zlib</Filter>
-    </ClCompile>
-    <ClCompile Include="..\..\..\VisualBoyAdvance\win32\dependencies\zlib\trees.c">
-      <Filter>usrapp\demo\vba_demo\zlib</Filter>
-    </ClCompile>
-    <ClCompile Include="..\..\..\VisualBoyAdvance\win32\dependencies\zlib\uncompr.c">
-      <Filter>usrapp\demo\vba_demo\zlib</Filter>
-    </ClCompile>
-    <ClCompile Include="..\..\..\VisualBoyAdvance\win32\dependencies\zlib\zutil.c">
-      <Filter>usrapp\demo\vba_demo\zlib</Filter>
-    </ClCompile>
     <ClCompile Include="..\..\..\vsf\source\vsf\shell\sys\xboot\vsf_xboot.c">
       <Filter>vsf\shell\sys\xboot</Filter>
     </ClCompile>
@@ -2833,6 +2803,51 @@
     </ClCompile>
     <ClCompile Include="..\..\demo\xui_demo\xui_demo.c">
       <Filter>usrapp\demo\xui_demo</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\zlib\adler32.c">
+      <Filter>usrapp\demo\lib\zlib</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\zlib\compress.c">
+      <Filter>usrapp\demo\lib\zlib</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\zlib\crc32.c">
+      <Filter>usrapp\demo\lib\zlib</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\zlib\deflate.c">
+      <Filter>usrapp\demo\lib\zlib</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\zlib\gzclose.c">
+      <Filter>usrapp\demo\lib\zlib</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\zlib\gzlib.c">
+      <Filter>usrapp\demo\lib\zlib</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\zlib\gzread.c">
+      <Filter>usrapp\demo\lib\zlib</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\zlib\gzwrite.c">
+      <Filter>usrapp\demo\lib\zlib</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\zlib\infback.c">
+      <Filter>usrapp\demo\lib\zlib</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\zlib\inffast.c">
+      <Filter>usrapp\demo\lib\zlib</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\zlib\inflate.c">
+      <Filter>usrapp\demo\lib\zlib</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\zlib\inftrees.c">
+      <Filter>usrapp\demo\lib\zlib</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\zlib\trees.c">
+      <Filter>usrapp\demo\lib\zlib</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\zlib\uncompr.c">
+      <Filter>usrapp\demo\lib\zlib</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\zlib\zutil.c">
+      <Filter>usrapp\demo\lib\zlib</Filter>
     </ClCompile>
   </ItemGroup>
   <ItemGroup>

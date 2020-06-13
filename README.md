@@ -8,6 +8,7 @@ port game emulators to vsf
 * VisualBoyAdvance -- GPL2.0
 * xboot -- MIT
 * freetype-2.10.2 -- FTL
+* zlib -- zlib
 
 # patches
 

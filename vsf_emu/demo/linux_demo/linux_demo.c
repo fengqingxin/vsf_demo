@@ -74,20 +74,26 @@ extern int mount_file_main(int argc, char *argv[]);
 extern int vsfvm_main(int argc, char *argv[]);
 #endif
 
+#if APP_CFG_USE_FREETYPE_DEMO == ENABLED
+extern void freetype_demo_init(void);
+#endif
+
 /*============================ IMPLEMENTATION ================================*/
 
 int vsf_linux_create_fhs(void)
 {
     int fd;
 
-#if APP_CFG_USE_USBH_DEMO == ENABLED
-    usbh_main(0, NULL);
-#endif
-
 #if VSF_USE_LINUX_BUSYBOX == ENABLED
     busybox_install();
 #endif
 
+    // 1. driver related demo
+#if APP_CFG_USE_USBH_DEMO == ENABLED
+    usbh_main(0, NULL);
+#endif
+
+    // 2. fs
 #if VSF_USE_MAL == ENABLED && VSF_USE_FAKEFAT32_MAL == ENABLED                  \
     && VSF_USE_FS == ENABLED && VSF_USE_FATFS == ENABLED
     vk_mal_init(&usrapp_common.mal.fakefat32.use_as__vk_mal_t);
@@ -123,7 +129,12 @@ int vsf_linux_create_fhs(void)
     }
 #endif
 
-    // install executables
+    // 3. demos depends on fs after all fs mounted
+#if APP_CFG_USE_FREETYPE_DEMO == ENABLED
+    freetype_demo_init();
+#endif
+
+    // 4. install executables
 #if VSF_USE_LINUX_LIBUSB == ENABLED && APP_CFG_USE_LINUX_LIBUSB_DEMO == ENABLED
     busybox_bind("/sbin/lsusb", lsusb_main);
     vsf_linux_libusb_startup();

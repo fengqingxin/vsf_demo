@@ -17,4 +17,4 @@ port game emulators to vsf
 3. Start with command: vba ./winfs_root/vba/xxxx.gba
 
 ## freetype
-1. Apply freetype.patch to freetype
+1. ~~Apply freetype.patch to freetype~~

@@ -466,6 +466,102 @@
     <Filter Include="vsf\shell\sys\xboot\include\xfs">
       <UniqueIdentifier>{fbb51d13-df05-4d66-8ed0-cb7cb961c507}</UniqueIdentifier>
     </Filter>
+    <Filter Include="usrapp\demo\freetype_demo\freetype">
+      <UniqueIdentifier>{6a56b844-53fc-419a-afc3-a4569dc01b32}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="usrapp\demo\freetype_demo\freetype\include">
+      <UniqueIdentifier>{1aa1d2b6-fc1f-4cfc-be08-f2fd65d4efc0}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="usrapp\demo\freetype_demo\freetype\include\freetype">
+      <UniqueIdentifier>{4e077a64-8016-4f24-b1d6-4953146aaa35}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="usrapp\demo\freetype_demo\freetype\include\freetype\internal">
+      <UniqueIdentifier>{0835d3b8-f88e-438e-b2c1-4f686002f405}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="usrapp\demo\freetype_demo\freetype\include\freetype\internal\services">
+      <UniqueIdentifier>{a841b9ba-4ddc-4679-ae88-f05c8ec76bb4}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="usrapp\demo\freetype_demo\freetype\include\freetype\config">
+      <UniqueIdentifier>{2378d1d9-f35c-4202-8f12-805a386ed6fa}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="usrapp\demo\freetype_demo\freetype\src">
+      <UniqueIdentifier>{45b83a2e-886c-4cee-887b-2117cac6ac34}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="usrapp\demo\freetype_demo\freetype\src\autofit">
+      <UniqueIdentifier>{280ba2ad-07fb-42a4-a05a-396f78bd60e9}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="usrapp\demo\freetype_demo\freetype\src\bdf">
+      <UniqueIdentifier>{d34c50b1-86d5-43f7-a2a3-b52493dba78e}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="usrapp\demo\freetype_demo\freetype\src\cff">
+      <UniqueIdentifier>{81edd1fc-874b-44c2-bed2-1fa8fbf6064a}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="usrapp\demo\freetype_demo\freetype\src\base">
+      <UniqueIdentifier>{8bf99d61-59f1-4a89-bc67-7305c13ec0ed}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="usrapp\demo\freetype_demo\freetype\src\bzip2">
+      <UniqueIdentifier>{5d928f1b-0457-47f5-bc91-0089d11cb67f}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="usrapp\demo\freetype_demo\freetype\src\cache">
+      <UniqueIdentifier>{44a5db2f-b978-4852-9146-a9081df59cc2}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="usrapp\demo\freetype_demo\freetype\builds">
+      <UniqueIdentifier>{7617a3d7-e653-4787-b945-597f43b4a3ab}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="usrapp\demo\freetype_demo\freetype\builds\vsf">
+      <UniqueIdentifier>{46ac2f2c-989e-4ec1-904d-211911aabfa5}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="usrapp\demo\freetype_demo\freetype\src\gzip">
+      <UniqueIdentifier>{0843f74e-7cec-4ae6-9e7b-c9d0e93bd03b}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="usrapp\demo\freetype_demo\freetype\src\lzw">
+      <UniqueIdentifier>{f2fca8fb-814c-46db-b1ac-b35cb2014c17}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="usrapp\demo\freetype_demo\freetype\src\gxvalid">
+      <UniqueIdentifier>{bf6703b9-7106-43a4-925b-6371e680ad0a}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="usrapp\demo\freetype_demo\freetype\src\otvalid">
+      <UniqueIdentifier>{86d581bb-5418-4ea2-b6b6-685e95b82e19}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="usrapp\demo\freetype_demo\freetype\src\pcf">
+      <UniqueIdentifier>{d322bd53-d4dc-4ee0-bd3f-61634f7ead3f}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="usrapp\demo\freetype_demo\freetype\src\pfr">
+      <UniqueIdentifier>{f6e742bd-6103-492a-8604-4f47e45f44be}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="usrapp\demo\freetype_demo\freetype\src\psaux">
+      <UniqueIdentifier>{b066c630-9b61-45bf-97f8-79b993d2010f}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="usrapp\demo\freetype_demo\freetype\src\pshinter">
+      <UniqueIdentifier>{b7df5709-0297-4671-af27-62ff97f9e8b3}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="usrapp\demo\freetype_demo\freetype\src\psnames">
+      <UniqueIdentifier>{841072c1-2682-47e9-8bbc-77e6b365daa7}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="usrapp\demo\freetype_demo\freetype\src\raster">
+      <UniqueIdentifier>{1e982930-0e8a-4750-ac63-bb184b497007}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="usrapp\demo\freetype_demo\freetype\src\sfnt">
+      <UniqueIdentifier>{c210c231-cc08-4957-89fb-3925fd8dec9f}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="usrapp\demo\freetype_demo\freetype\src\smooth">
+      <UniqueIdentifier>{6b410010-4754-48cf-a5b6-f84e4c2fb0cc}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="usrapp\demo\freetype_demo\freetype\src\truetype">
+      <UniqueIdentifier>{2719e5a8-e1ac-455c-af3b-c1746c02ab1a}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="usrapp\demo\freetype_demo\freetype\src\type1">
+      <UniqueIdentifier>{67793cec-030c-472a-a49f-60a54f7cf943}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="usrapp\demo\freetype_demo\freetype\src\type42">
+      <UniqueIdentifier>{2618b6c5-10f9-4439-9e61-321a96006174}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="usrapp\demo\freetype_demo\freetype\src\winfonts">
+      <UniqueIdentifier>{9ab3118d-2eb0-4022-a15b-95bedeb48993}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="usrapp\demo\freetype_demo\freetype\src\cid">
+      <UniqueIdentifier>{cf364780-5022-4d4c-88fe-2774b154d528}</UniqueIdentifier>
+    </Filter>
   </ItemGroup>
   <ItemGroup>
     <ClInclude Include="..\..\..\vsf\source\vsf\vsf.h">
@@ -1359,6 +1455,282 @@
     <ClInclude Include="..\..\..\vsf\source\vsf\shell\sys\xboot\include\xfs\xfs.h">
       <Filter>vsf\shell\sys\xboot\include\xboot</Filter>
     </ClInclude>
+    <ClInclude Include="..\..\..\freetype\include\freetype\freetype.h">
+      <Filter>usrapp\demo\freetype_demo\freetype\include\freetype</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\freetype\include\freetype\ftadvanc.h">
+      <Filter>usrapp\demo\freetype_demo\freetype\include\freetype</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\freetype\include\freetype\ftbbox.h">
+      <Filter>usrapp\demo\freetype_demo\freetype\include\freetype</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\freetype\include\freetype\ftbdf.h">
+      <Filter>usrapp\demo\freetype_demo\freetype\include\freetype</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\freetype\include\freetype\ftbitmap.h">
+      <Filter>usrapp\demo\freetype_demo\freetype\include\freetype</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\freetype\include\freetype\ftbzip2.h">
+      <Filter>usrapp\demo\freetype_demo\freetype\include\freetype</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\freetype\include\freetype\ftcache.h">
+      <Filter>usrapp\demo\freetype_demo\freetype\include\freetype</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\freetype\include\freetype\ftchapters.h">
+      <Filter>usrapp\demo\freetype_demo\freetype\include\freetype</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\freetype\include\freetype\ftcid.h">
+      <Filter>usrapp\demo\freetype_demo\freetype\include\freetype</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\freetype\include\freetype\ftcolor.h">
+      <Filter>usrapp\demo\freetype_demo\freetype\include\freetype</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\freetype\include\freetype\ftdriver.h">
+      <Filter>usrapp\demo\freetype_demo\freetype\include\freetype</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\freetype\include\freetype\fterrdef.h">
+      <Filter>usrapp\demo\freetype_demo\freetype\include\freetype</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\freetype\include\freetype\fterrors.h">
+      <Filter>usrapp\demo\freetype_demo\freetype\include\freetype</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\freetype\include\freetype\ftfntfmt.h">
+      <Filter>usrapp\demo\freetype_demo\freetype\include\freetype</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\freetype\include\freetype\ftgasp.h">
+      <Filter>usrapp\demo\freetype_demo\freetype\include\freetype</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\freetype\include\freetype\ftglyph.h">
+      <Filter>usrapp\demo\freetype_demo\freetype\include\freetype</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\freetype\include\freetype\ftgxval.h">
+      <Filter>usrapp\demo\freetype_demo\freetype\include\freetype</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\freetype\include\freetype\ftgzip.h">
+      <Filter>usrapp\demo\freetype_demo\freetype\include\freetype</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\freetype\include\freetype\ftimage.h">
+      <Filter>usrapp\demo\freetype_demo\freetype\include\freetype</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\freetype\include\freetype\ftincrem.h">
+      <Filter>usrapp\demo\freetype_demo\freetype\include\freetype</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\freetype\include\freetype\ftlcdfil.h">
+      <Filter>usrapp\demo\freetype_demo\freetype\include\freetype</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\freetype\include\freetype\ftlist.h">
+      <Filter>usrapp\demo\freetype_demo\freetype\include\freetype</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\freetype\include\freetype\ftlzw.h">
+      <Filter>usrapp\demo\freetype_demo\freetype\include\freetype</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\freetype\include\freetype\ftmac.h">
+      <Filter>usrapp\demo\freetype_demo\freetype\include\freetype</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\freetype\include\freetype\ftmm.h">
+      <Filter>usrapp\demo\freetype_demo\freetype\include\freetype</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\freetype\include\freetype\ftmodapi.h">
+      <Filter>usrapp\demo\freetype_demo\freetype\include\freetype</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\freetype\include\freetype\ftmoderr.h">
+      <Filter>usrapp\demo\freetype_demo\freetype\include\freetype</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\freetype\include\freetype\ftotval.h">
+      <Filter>usrapp\demo\freetype_demo\freetype\include\freetype</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\freetype\include\freetype\ftoutln.h">
+      <Filter>usrapp\demo\freetype_demo\freetype\include\freetype</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\freetype\include\freetype\ftparams.h">
+      <Filter>usrapp\demo\freetype_demo\freetype\include\freetype</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\freetype\include\freetype\ftpfr.h">
+      <Filter>usrapp\demo\freetype_demo\freetype\include\freetype</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\freetype\include\freetype\ftrender.h">
+      <Filter>usrapp\demo\freetype_demo\freetype\include\freetype</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\freetype\include\freetype\ftsizes.h">
+      <Filter>usrapp\demo\freetype_demo\freetype\include\freetype</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\freetype\include\freetype\ftsnames.h">
+      <Filter>usrapp\demo\freetype_demo\freetype\include\freetype</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\freetype\include\freetype\ftstroke.h">
+      <Filter>usrapp\demo\freetype_demo\freetype\include\freetype</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\freetype\include\freetype\ftsynth.h">
+      <Filter>usrapp\demo\freetype_demo\freetype\include\freetype</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\freetype\include\freetype\ftsystem.h">
+      <Filter>usrapp\demo\freetype_demo\freetype\include\freetype</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\freetype\include\freetype\fttrigon.h">
+      <Filter>usrapp\demo\freetype_demo\freetype\include\freetype</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\freetype\include\freetype\fttypes.h">
+      <Filter>usrapp\demo\freetype_demo\freetype\include\freetype</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\freetype\include\freetype\ftwinfnt.h">
+      <Filter>usrapp\demo\freetype_demo\freetype\include\freetype</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\freetype\include\freetype\t1tables.h">
+      <Filter>usrapp\demo\freetype_demo\freetype\include\freetype</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\freetype\include\freetype\ttnameid.h">
+      <Filter>usrapp\demo\freetype_demo\freetype\include\freetype</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\freetype\include\freetype\tttables.h">
+      <Filter>usrapp\demo\freetype_demo\freetype\include\freetype</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\freetype\include\freetype\tttags.h">
+      <Filter>usrapp\demo\freetype_demo\freetype\include\freetype</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\freetype\include\freetype\internal\autohint.h">
+      <Filter>usrapp\demo\freetype_demo\freetype\include\freetype\internal</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\freetype\include\freetype\internal\cffotypes.h">
+      <Filter>usrapp\demo\freetype_demo\freetype\include\freetype\internal</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\freetype\include\freetype\internal\cfftypes.h">
+      <Filter>usrapp\demo\freetype_demo\freetype\include\freetype\internal</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\freetype\include\freetype\internal\ftcalc.h">
+      <Filter>usrapp\demo\freetype_demo\freetype\include\freetype\internal</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\freetype\include\freetype\internal\ftdebug.h">
+      <Filter>usrapp\demo\freetype_demo\freetype\include\freetype\internal</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\freetype\include\freetype\internal\ftdrv.h">
+      <Filter>usrapp\demo\freetype_demo\freetype\include\freetype\internal</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\freetype\include\freetype\internal\ftgloadr.h">
+      <Filter>usrapp\demo\freetype_demo\freetype\include\freetype\internal</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\freetype\include\freetype\internal\fthash.h">
+      <Filter>usrapp\demo\freetype_demo\freetype\include\freetype\internal</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\freetype\include\freetype\internal\ftmemory.h">
+      <Filter>usrapp\demo\freetype_demo\freetype\include\freetype\internal</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\freetype\include\freetype\internal\ftobjs.h">
+      <Filter>usrapp\demo\freetype_demo\freetype\include\freetype\internal</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\freetype\include\freetype\internal\ftpsprop.h">
+      <Filter>usrapp\demo\freetype_demo\freetype\include\freetype\internal</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\freetype\include\freetype\internal\ftrfork.h">
+      <Filter>usrapp\demo\freetype_demo\freetype\include\freetype\internal</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\freetype\include\freetype\internal\ftserv.h">
+      <Filter>usrapp\demo\freetype_demo\freetype\include\freetype\internal</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\freetype\include\freetype\internal\ftstream.h">
+      <Filter>usrapp\demo\freetype_demo\freetype\include\freetype\internal</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\freetype\include\freetype\internal\fttrace.h">
+      <Filter>usrapp\demo\freetype_demo\freetype\include\freetype\internal</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\freetype\include\freetype\internal\ftvalid.h">
+      <Filter>usrapp\demo\freetype_demo\freetype\include\freetype\internal</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\freetype\include\freetype\internal\internal.h">
+      <Filter>usrapp\demo\freetype_demo\freetype\include\freetype\internal</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\freetype\include\freetype\internal\psaux.h">
+      <Filter>usrapp\demo\freetype_demo\freetype\include\freetype\internal</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\freetype\include\freetype\internal\pshints.h">
+      <Filter>usrapp\demo\freetype_demo\freetype\include\freetype\internal</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\freetype\include\freetype\internal\sfnt.h">
+      <Filter>usrapp\demo\freetype_demo\freetype\include\freetype\internal</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\freetype\include\freetype\internal\t1types.h">
+      <Filter>usrapp\demo\freetype_demo\freetype\include\freetype\internal</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\freetype\include\freetype\internal\tttypes.h">
+      <Filter>usrapp\demo\freetype_demo\freetype\include\freetype\internal</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\freetype\include\freetype\internal\wofftypes.h">
+      <Filter>usrapp\demo\freetype_demo\freetype\include\freetype\internal</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\freetype\include\freetype\internal\services\svbdf.h">
+      <Filter>usrapp\demo\freetype_demo\freetype\include\freetype\internal\services</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\freetype\include\freetype\internal\services\svcfftl.h">
+      <Filter>usrapp\demo\freetype_demo\freetype\include\freetype\internal\services</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\freetype\include\freetype\internal\services\svcid.h">
+      <Filter>usrapp\demo\freetype_demo\freetype\include\freetype\internal\services</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\freetype\include\freetype\internal\services\svfntfmt.h">
+      <Filter>usrapp\demo\freetype_demo\freetype\include\freetype\internal\services</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\freetype\include\freetype\internal\services\svgldict.h">
+      <Filter>usrapp\demo\freetype_demo\freetype\include\freetype\internal\services</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\freetype\include\freetype\internal\services\svgxval.h">
+      <Filter>usrapp\demo\freetype_demo\freetype\include\freetype\internal\services</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\freetype\include\freetype\internal\services\svkern.h">
+      <Filter>usrapp\demo\freetype_demo\freetype\include\freetype\internal\services</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\freetype\include\freetype\internal\services\svmetric.h">
+      <Filter>usrapp\demo\freetype_demo\freetype\include\freetype\internal\services</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\freetype\include\freetype\internal\services\svmm.h">
+      <Filter>usrapp\demo\freetype_demo\freetype\include\freetype\internal\services</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\freetype\include\freetype\internal\services\svotval.h">
+      <Filter>usrapp\demo\freetype_demo\freetype\include\freetype\internal\services</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\freetype\include\freetype\internal\services\svpfr.h">
+      <Filter>usrapp\demo\freetype_demo\freetype\include\freetype\internal\services</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\freetype\include\freetype\internal\services\svpostnm.h">
+      <Filter>usrapp\demo\freetype_demo\freetype\include\freetype\internal\services</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\freetype\include\freetype\internal\services\svprop.h">
+      <Filter>usrapp\demo\freetype_demo\freetype\include\freetype\internal\services</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\freetype\include\freetype\internal\services\svpscmap.h">
+      <Filter>usrapp\demo\freetype_demo\freetype\include\freetype\internal\services</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\freetype\include\freetype\internal\services\svpsinfo.h">
+      <Filter>usrapp\demo\freetype_demo\freetype\include\freetype\internal\services</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\freetype\include\freetype\internal\services\svsfnt.h">
+      <Filter>usrapp\demo\freetype_demo\freetype\include\freetype\internal\services</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\freetype\include\freetype\internal\services\svttcmap.h">
+      <Filter>usrapp\demo\freetype_demo\freetype\include\freetype\internal\services</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\freetype\include\freetype\internal\services\svtteng.h">
+      <Filter>usrapp\demo\freetype_demo\freetype\include\freetype\internal\services</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\freetype\include\freetype\internal\services\svttglyf.h">
+      <Filter>usrapp\demo\freetype_demo\freetype\include\freetype\internal\services</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\freetype\include\freetype\internal\services\svwinfnt.h">
+      <Filter>usrapp\demo\freetype_demo\freetype\include\freetype\internal\services</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\freetype\include\freetype\config\ftconfig.h">
+      <Filter>usrapp\demo\freetype_demo\freetype\include\freetype\config</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\freetype\include\freetype\config\ftheader.h">
+      <Filter>usrapp\demo\freetype_demo\freetype\include\freetype\config</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\freetype\include\freetype\config\ftmodule.h">
+      <Filter>usrapp\demo\freetype_demo\freetype\include\freetype\config</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\freetype\include\freetype\config\ftoption.h">
+      <Filter>usrapp\demo\freetype_demo\freetype\include\freetype\config</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\freetype\include\freetype\config\ftstdlib.h">
+      <Filter>usrapp\demo\freetype_demo\freetype\include\freetype\config</Filter>
+    </ClInclude>
   </ItemGroup>
   <ItemGroup>
     <ClCompile Include="..\..\..\vsf\source\vsf\utilities\compiler\x86\signal.c">
@@ -1996,6 +2368,129 @@
     </ClCompile>
     <ClCompile Include="..\..\demo\freetype_demo\freetype_demo.c">
       <Filter>usrapp\demo\freetype_demo</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\freetype\src\autofit\autofit.c">
+      <Filter>usrapp\demo\freetype_demo\freetype\src\autofit</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\freetype\src\bdf\bdf.c">
+      <Filter>usrapp\demo\freetype_demo\freetype\src\bdf</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\freetype\src\cff\cff.c">
+      <Filter>usrapp\demo\freetype_demo\freetype\src\cff</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\freetype\src\base\ftbase.c">
+      <Filter>usrapp\demo\freetype_demo\freetype\src\base</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\freetype\src\bzip2\ftbzip2.c">
+      <Filter>usrapp\demo\freetype_demo\freetype\src\bzip2</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\freetype\src\cache\ftcache.c">
+      <Filter>usrapp\demo\freetype_demo\freetype\src\cache</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\freetype\builds\vsf\ftdebug.c">
+      <Filter>usrapp\demo\freetype_demo\freetype\builds\vsf</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\freetype\src\gzip\ftgzip.c">
+      <Filter>usrapp\demo\freetype_demo\freetype\src\gzip</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\freetype\src\base\ftinit.c">
+      <Filter>usrapp\demo\freetype_demo\freetype\src\base</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\freetype\src\lzw\ftlzw.c">
+      <Filter>usrapp\demo\freetype_demo\freetype\src\lzw</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\freetype\src\base\ftsystem.c">
+      <Filter>usrapp\demo\freetype_demo\freetype\src\base</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\freetype\src\gxvalid\gxvalid.c">
+      <Filter>usrapp\demo\freetype_demo\freetype\src\gxvalid</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\freetype\src\otvalid\otvalid.c">
+      <Filter>usrapp\demo\freetype_demo\freetype\src\otvalid</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\freetype\src\pcf\pcf.c">
+      <Filter>usrapp\demo\freetype_demo\freetype\src\pcf</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\freetype\src\pfr\pfr.c">
+      <Filter>usrapp\demo\freetype_demo\freetype\src\pfr</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\freetype\src\psaux\psaux.c">
+      <Filter>usrapp\demo\freetype_demo\freetype\src\psaux</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\freetype\src\pshinter\pshinter.c">
+      <Filter>usrapp\demo\freetype_demo\freetype\src\pshinter</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\freetype\src\psnames\psnames.c">
+      <Filter>usrapp\demo\freetype_demo\freetype\src\psnames</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\freetype\src\raster\raster.c">
+      <Filter>usrapp\demo\freetype_demo\freetype\src\raster</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\freetype\src\sfnt\sfnt.c">
+      <Filter>usrapp\demo\freetype_demo\freetype\src\sfnt</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\freetype\src\smooth\smooth.c">
+      <Filter>usrapp\demo\freetype_demo\freetype\src\smooth</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\freetype\src\truetype\truetype.c">
+      <Filter>usrapp\demo\freetype_demo\freetype\src\truetype</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\freetype\src\type1\type1.c">
+      <Filter>usrapp\demo\freetype_demo\freetype\src\type1</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\freetype\src\type42\type42.c">
+      <Filter>usrapp\demo\freetype_demo\freetype\src\type42</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\freetype\src\winfonts\winfnt.c">
+      <Filter>usrapp\demo\freetype_demo\freetype\src\winfonts</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\freetype\src\base\ftbbox.c">
+      <Filter>usrapp\demo\freetype_demo\freetype\src\base</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\freetype\src\base\ftbdf.c">
+      <Filter>usrapp\demo\freetype_demo\freetype\src\base</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\freetype\src\base\ftbitmap.c">
+      <Filter>usrapp\demo\freetype_demo\freetype\src\base</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\freetype\src\base\ftcid.c">
+      <Filter>usrapp\demo\freetype_demo\freetype\src\base</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\freetype\src\base\ftfstype.c">
+      <Filter>usrapp\demo\freetype_demo\freetype\src\base</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\freetype\src\base\ftgasp.c">
+      <Filter>usrapp\demo\freetype_demo\freetype\src\base</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\freetype\src\base\ftglyph.c">
+      <Filter>usrapp\demo\freetype_demo\freetype\src\base</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\freetype\src\base\ftgxval.c">
+      <Filter>usrapp\demo\freetype_demo\freetype\src\base</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\freetype\src\base\ftmm.c">
+      <Filter>usrapp\demo\freetype_demo\freetype\src\base</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\freetype\src\base\ftotval.c">
+      <Filter>usrapp\demo\freetype_demo\freetype\src\base</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\freetype\src\base\ftpfr.c">
+      <Filter>usrapp\demo\freetype_demo\freetype\src\base</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\freetype\src\base\ftstroke.c">
+      <Filter>usrapp\demo\freetype_demo\freetype\src\base</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\freetype\src\base\ftsynth.c">
+      <Filter>usrapp\demo\freetype_demo\freetype\src\base</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\freetype\src\base\fttype1.c">
+      <Filter>usrapp\demo\freetype_demo\freetype\src\base</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\freetype\src\base\ftwinfnt.c">
+      <Filter>usrapp\demo\freetype_demo\freetype\src\base</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\freetype\src\cid\type1cid.c">
+      <Filter>usrapp\demo\freetype_demo\freetype\src\cid</Filter>
     </ClCompile>
   </ItemGroup>
   <ItemGroup>

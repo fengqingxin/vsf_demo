@@ -1812,6 +1812,9 @@
     <ClInclude Include="..\..\..\libpng\pngstruct.h">
       <Filter>usrapp\demo\lib\libpng</Filter>
     </ClInclude>
+    <ClInclude Include="..\..\..\libpng\pnglibconf.h">
+      <Filter>usrapp\demo\lib\libpng</Filter>
+    </ClInclude>
   </ItemGroup>
   <ItemGroup>
     <ClCompile Include="..\..\..\vsf\source\vsf\utilities\compiler\x86\signal.c">
@@ -2829,9 +2832,6 @@
       <Filter>usrapp\demo\lib\libpng</Filter>
     </ClCompile>
     <ClCompile Include="..\..\..\libpng\pngset.c">
-      <Filter>usrapp\demo\lib\libpng</Filter>
-    </ClCompile>
-    <ClCompile Include="..\..\..\libpng\pngtest.c">
       <Filter>usrapp\demo\lib\libpng</Filter>
     </ClCompile>
     <ClCompile Include="..\..\..\libpng\pngtrans.c">

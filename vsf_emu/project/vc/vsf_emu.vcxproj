@@ -115,6 +115,7 @@
     <ClInclude Include="..\..\..\libpng\pngconf.h" />
     <ClInclude Include="..\..\..\libpng\pngdebug.h" />
     <ClInclude Include="..\..\..\libpng\pnginfo.h" />
+    <ClInclude Include="..\..\..\libpng\pnglibconf.h" />
     <ClInclude Include="..\..\..\libpng\pngpriv.h" />
     <ClInclude Include="..\..\..\libpng\pngstruct.h" />
     <ClInclude Include="..\..\..\vsf\source\vsf\component\av\audio\decoder\wav\vsf_wav.h" />
@@ -477,7 +478,6 @@
     <ClCompile Include="..\..\..\libpng\pngrtran.c" />
     <ClCompile Include="..\..\..\libpng\pngrutil.c" />
     <ClCompile Include="..\..\..\libpng\pngset.c" />
-    <ClCompile Include="..\..\..\libpng\pngtest.c" />
     <ClCompile Include="..\..\..\libpng\pngtrans.c" />
     <ClCompile Include="..\..\..\libpng\pngwio.c" />
     <ClCompile Include="..\..\..\libpng\pngwrite.c" />

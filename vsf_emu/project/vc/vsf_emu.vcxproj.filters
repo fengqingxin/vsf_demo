@@ -1809,6 +1809,12 @@
     <ClInclude Include="..\..\..\jpeg-9d\jversion.h">
       <Filter>usrapp\demo\lib\jpeg</Filter>
     </ClInclude>
+    <ClInclude Include="..\..\config\jconfig.h">
+      <Filter>usrapp\config</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\config\pnglibconf.h">
+      <Filter>usrapp\config</Filter>
+    </ClInclude>
   </ItemGroup>
   <ItemGroup>
     <ClCompile Include="..\..\..\vsf\source\vsf\utilities\compiler\x86\signal.c">
@@ -2828,19 +2834,7 @@
     <ClCompile Include="..\..\..\jpeg-9d\jidctint.c">
       <Filter>usrapp\demo\lib\jpeg</Filter>
     </ClCompile>
-    <ClCompile Include="..\..\..\jpeg-9d\jmemansi.c">
-      <Filter>usrapp\demo\lib\jpeg</Filter>
-    </ClCompile>
-    <ClCompile Include="..\..\..\jpeg-9d\jmemdos.c">
-      <Filter>usrapp\demo\lib\jpeg</Filter>
-    </ClCompile>
-    <ClCompile Include="..\..\..\jpeg-9d\jmemmac.c">
-      <Filter>usrapp\demo\lib\jpeg</Filter>
-    </ClCompile>
     <ClCompile Include="..\..\..\jpeg-9d\jmemmgr.c">
-      <Filter>usrapp\demo\lib\jpeg</Filter>
-    </ClCompile>
-    <ClCompile Include="..\..\..\jpeg-9d\jmemname.c">
       <Filter>usrapp\demo\lib\jpeg</Filter>
     </ClCompile>
     <ClCompile Include="..\..\..\jpeg-9d\jmemnobs.c">

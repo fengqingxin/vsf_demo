@@ -385,6 +385,8 @@
     <ClInclude Include="..\..\..\zlib\zconf.h" />
     <ClInclude Include="..\..\..\zlib\zlib.h" />
     <ClInclude Include="..\..\..\zlib\zutil.h" />
+    <ClInclude Include="..\..\config\jconfig.h" />
+    <ClInclude Include="..\..\config\pnglibconf.h" />
     <ClInclude Include="..\..\config\vsf_usr_cfg.h" />
     <ClInclude Include="..\..\demo\common\usrapp_audio_common.h" />
     <ClInclude Include="..\..\demo\common\usrapp_common.h" />
@@ -508,11 +510,7 @@
     <ClCompile Include="..\..\..\jpeg-9d\jidctflt.c" />
     <ClCompile Include="..\..\..\jpeg-9d\jidctfst.c" />
     <ClCompile Include="..\..\..\jpeg-9d\jidctint.c" />
-    <ClCompile Include="..\..\..\jpeg-9d\jmemansi.c" />
-    <ClCompile Include="..\..\..\jpeg-9d\jmemdos.c" />
-    <ClCompile Include="..\..\..\jpeg-9d\jmemmac.c" />
     <ClCompile Include="..\..\..\jpeg-9d\jmemmgr.c" />
-    <ClCompile Include="..\..\..\jpeg-9d\jmemname.c" />
     <ClCompile Include="..\..\..\jpeg-9d\jmemnobs.c" />
     <ClCompile Include="..\..\..\jpeg-9d\jquant1.c" />
     <ClCompile Include="..\..\..\jpeg-9d\jquant2.c" />
@@ -877,7 +875,7 @@
       <SDLCheck>true</SDLCheck>
       <PreprocessorDefinitions>__CPU_X86__;__WIN__;__OOC_CPP__;WIN32;_DEBUG;_CONSOLE;LV_CONF_INCLUDE_SIMPLE;HAS_STD_MALLOC;HAS_AWTK_CONFIG;FT2_BUILD_LIBRARY;C_CORE;SDL;SYSCONFDIR="./winfs_root/vba";%(PreprocessorDefinitions)</PreprocessorDefinitions>
       <ConformanceMode>true</ConformanceMode>
-      <AdditionalIncludeDirectories>$(ProjectDir);$(ProjectDir)..\..\..\vsf\source\vsf;$(ProjectDir)..\..\..\vsf\source\vsf\shell\sys\linux\include;$(ProjectDir)..\..\..\vsf\source\vsf\shell\media\sdl2\include\SDL2;$(ProjectDir)..\..\..\vsf\source\vsf\shell\sys\xboot\include;$(ProjectDir)..\..\..\vsf\source\vsf\shell\sys\xboot\include\arch;$(ProjectDir)..\..\config;$(ProjectDir)lib\awtk\include;$(ProjectDir)lib\awtk\include\ext_widgets;$(ProjectDir)..\..\..\vsf\source\vsf\component\3rd-party\nnom\raw\inc;$(ProjectDir)..\..\..\vsf\source\vsf\component\3rd-party\nnom\port;$(ProjectDir)..\..\..\vsf\source\vsf\component\3rd-party\littlevgl\6.0\raw;$(ProjectDir)..\..\..\vsf\source\vsf\component\3rd-party\btstack\raw\src;$(ProjectDir)..\..\..\vsf\source\vsf\component\3rd-party\btstack\raw\chipset;$(ProjectDir)..\..\..\vsf\source\vsf\component\3rd-party\vsfvm\raw;$(ProjectDir)..\..\..\patches;$(ProjectDir)..\..\..\zlib;$(ProjectDir)..\..\..\libpng;$(ProjectDir)..\..\..\jpeg;$(ProjectDir)..\..\..\VisualBoyAdvance\src;$(ProjectDir)..\..\..\freetype\include;$(ProjectDir)..\..\..\xboot\src\include;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <AdditionalIncludeDirectories>$(ProjectDir);$(ProjectDir)..\..\..\vsf\source\vsf;$(ProjectDir)..\..\..\vsf\source\vsf\shell\sys\linux\include;$(ProjectDir)..\..\..\vsf\source\vsf\shell\media\sdl2\include\SDL2;$(ProjectDir)..\..\..\vsf\source\vsf\shell\sys\xboot\include;$(ProjectDir)..\..\..\vsf\source\vsf\shell\sys\xboot\include\arch;$(ProjectDir)..\..\config;$(ProjectDir)lib\awtk\include;$(ProjectDir)lib\awtk\include\ext_widgets;$(ProjectDir)..\..\..\vsf\source\vsf\component\3rd-party\nnom\raw\inc;$(ProjectDir)..\..\..\vsf\source\vsf\component\3rd-party\nnom\port;$(ProjectDir)..\..\..\vsf\source\vsf\component\3rd-party\littlevgl\6.0\raw;$(ProjectDir)..\..\..\vsf\source\vsf\component\3rd-party\btstack\raw\src;$(ProjectDir)..\..\..\vsf\source\vsf\component\3rd-party\btstack\raw\chipset;$(ProjectDir)..\..\..\vsf\source\vsf\component\3rd-party\vsfvm\raw;$(ProjectDir)..\..\..\patches;$(ProjectDir)..\..\..\zlib;$(ProjectDir)..\..\..\libpng;$(ProjectDir)..\..\..\jpeg-9d;$(ProjectDir)..\..\..\VisualBoyAdvance\src;$(ProjectDir)..\..\..\freetype\include;$(ProjectDir)..\..\..\xboot\src\include;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
       <AdditionalOptions>-Wno-empty-body -Wno-microsoft-anon-tag -Wno-int-conversion -Wno-int-to-pointer-cast -Wno-missing-braces -Wno-pragma-pack -Wno-deprecated-declarations -Wno-unused-variable  -Wno-bitfield-constant-conversion -Wno-sometimes-uninitialized -Wno-unused-function -Wno-switch -Wno-pointer-integer-compare -fms-extensions %(AdditionalOptions)</AdditionalOptions>
       <MultiProcessorCompilation>true</MultiProcessorCompilation>
       <ExceptionHandling>false</ExceptionHandling>

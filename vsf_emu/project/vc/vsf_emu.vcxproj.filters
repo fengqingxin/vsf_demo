@@ -2753,6 +2753,9 @@
     <ClCompile Include="..\..\..\xboot\src\kernel\graphic\text.c">
       <Filter>usrapp\demo\xui_demo\xboot\src\kernel\graphic</Filter>
     </ClCompile>
+    <ClCompile Include="..\..\..\xboot\src\kernel\graphic\icon.c">
+      <Filter>usrapp\demo\xui_demo\xboot\src\kernel\graphic</Filter>
+    </ClCompile>
     <ClCompile Include="..\..\..\xboot\src\kernel\xui\xui.c">
       <Filter>usrapp\demo\xui_demo\xboot\src\kernel\xui</Filter>
     </ClCompile>

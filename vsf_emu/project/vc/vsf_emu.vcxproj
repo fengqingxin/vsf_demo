@@ -670,17 +670,16 @@
     <ClCompile Include="..\..\..\xboot\src\external\libpng-1.6.37\pngwutil.c" />
     <ClCompile Include="..\..\..\xboot\src\kernel\graphic\color.c" />
     <ClCompile Include="..\..\..\xboot\src\kernel\graphic\font.c" />
+    <ClCompile Include="..\..\..\xboot\src\kernel\graphic\icon.c" />
     <ClCompile Include="..\..\..\xboot\src\kernel\graphic\matrix.c" />
     <ClCompile Include="..\..\..\xboot\src\kernel\graphic\region.c" />
     <ClCompile Include="..\..\..\xboot\src\kernel\graphic\render.c" />
     <ClCompile Include="..\..\..\xboot\src\kernel\graphic\surface.c" />
-    <ClCompile Include="..\..\..\xboot\src\kernel\graphic\svg-raster.c">
-      <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">true</ExcludedFromBuild>
+    <ClCompile Include="..\..\..\xboot\src\kernel\graphic\svg-raster.c /">
+    <ClCompile Include="..\..\..\xboot\src\kernel\graphic\svg.c" />
+    <ClCompile Include="..\..\..\xboot\src\kernel\graphic\text.c">
+      <ObjectFileName Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">$(IntDir)xboot\</ObjectFileName>
     </ClCompile>
-    <ClCompile Include="..\..\..\xboot\src\kernel\graphic\svg.c">
-      <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">true</ExcludedFromBuild>
-    </ClCompile>
-    <ClCompile Include="..\..\..\xboot\src\kernel\graphic\text.c" />
     <ClCompile Include="..\..\..\xboot\src\kernel\xui\xui-badge.c" />
     <ClCompile Include="..\..\..\xboot\src\kernel\xui\xui-button.c" />
     <ClCompile Include="..\..\..\xboot\src\kernel\xui\xui-checkbox.c" />
@@ -783,7 +782,9 @@
     <ClCompile Include="..\..\..\VisualBoyAdvance\src\simple2x.cpp" />
     <ClCompile Include="..\..\..\VisualBoyAdvance\src\Sound.cpp" />
     <ClCompile Include="..\..\..\VisualBoyAdvance\src\Sram.cpp" />
-    <ClCompile Include="..\..\..\VisualBoyAdvance\src\Text.cpp" />
+    <ClCompile Include="..\..\..\VisualBoyAdvance\src\Text.cpp">
+      <ObjectFileName Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">$(IntDir)vba\</ObjectFileName>
+    </ClCompile>
     <ClCompile Include="..\..\..\VisualBoyAdvance\src\unzip.cpp" />
     <ClCompile Include="..\..\..\VisualBoyAdvance\src\Util.cpp" />
     <ClCompile Include="..\..\demo\xui_demo\xui_demo.c" />

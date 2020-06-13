@@ -6,6 +6,11 @@ port game emulators to vsf
 * vsf -- Apache2.0
 * SDL2 -- zlib
 * VisualBoyAdvance -- GPL2.0
+* xboot -- MIT
 
-Apply VisualBoyAdvance.patch to VisualBoyAdvance. Copy rom to vsf_emu/project/vc/winfs_root/vba.
-Start with command: vba ./winfs_root/vba/xxxx.gba
+# patches
+
+## VisualBoyAdvance
+1. Apply VisualBoyAdvance.patch to VisualBoyAdvance
+2. Copy rom to vsf_emu/project/vc/winfs_root/vba/
+3. Start with command: vba ./winfs_root/vba/xxxx.gba

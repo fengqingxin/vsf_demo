@@ -675,8 +675,14 @@
     <ClCompile Include="..\..\..\xboot\src\kernel\graphic\region.c" />
     <ClCompile Include="..\..\..\xboot\src\kernel\graphic\render.c" />
     <ClCompile Include="..\..\..\xboot\src\kernel\graphic\surface.c" />
-    <ClCompile Include="..\..\..\xboot\src\kernel\graphic\svg-raster.c /">
-    <ClCompile Include="..\..\..\xboot\src\kernel\graphic\svg.c" />
+    <ClCompile Include="..\..\..\xboot\src\kernel\graphic\svg-raster.c">
+      <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">
+      </ExcludedFromBuild>
+    </ClCompile>
+    <ClCompile Include="..\..\..\xboot\src\kernel\graphic\svg.c">
+      <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">
+      </ExcludedFromBuild>
+    </ClCompile>
     <ClCompile Include="..\..\..\xboot\src\kernel\graphic\text.c">
       <ObjectFileName Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">$(IntDir)xboot\</ObjectFileName>
     </ClCompile>

@@ -568,12 +568,6 @@
     <Filter Include="usrapp\demo\xui_demo\xboot\src">
       <UniqueIdentifier>{6dbec204-8ac0-40ec-ada2-7095e3df210a}</UniqueIdentifier>
     </Filter>
-    <Filter Include="usrapp\demo\xui_demo\xboot\src\external">
-      <UniqueIdentifier>{f264288d-ef4d-46e7-8cca-975fcd0f3cbd}</UniqueIdentifier>
-    </Filter>
-    <Filter Include="usrapp\demo\xui_demo\xboot\src\external\libjpeg">
-      <UniqueIdentifier>{1830633e-e5bf-4c2b-88fa-19fbf22f9dcc}</UniqueIdentifier>
-    </Filter>
     <Filter Include="usrapp\demo\xui_demo\xboot\src\kernel">
       <UniqueIdentifier>{82ca0fda-5382-4519-a5e6-e7cb95758c5e}</UniqueIdentifier>
     </Filter>
@@ -594,6 +588,9 @@
     </Filter>
     <Filter Include="usrapp\demo\lib\libpng">
       <UniqueIdentifier>{0da5bd2f-5179-4ada-afd5-d847d124a22f}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="usrapp\demo\lib\jpeg">
+      <UniqueIdentifier>{e2c6336e-3353-420f-945c-bfe7480ee590}</UniqueIdentifier>
     </Filter>
   </ItemGroup>
   <ItemGroup>
@@ -1734,33 +1731,6 @@
     <ClInclude Include="..\..\..\freetype\include\freetype\config\ftstdlib.h">
       <Filter>usrapp\demo\freetype_demo\freetype\include\freetype\config</Filter>
     </ClInclude>
-    <ClInclude Include="..\..\..\xboot\src\external\jpeg-9c\jconfig.h">
-      <Filter>usrapp\demo\xui_demo\xboot\src\external\libjpeg</Filter>
-    </ClInclude>
-    <ClInclude Include="..\..\..\xboot\src\external\jpeg-9c\jdct.h">
-      <Filter>usrapp\demo\xui_demo\xboot\src\external\libjpeg</Filter>
-    </ClInclude>
-    <ClInclude Include="..\..\..\xboot\src\external\jpeg-9c\jerror.h">
-      <Filter>usrapp\demo\xui_demo\xboot\src\external\libjpeg</Filter>
-    </ClInclude>
-    <ClInclude Include="..\..\..\xboot\src\external\jpeg-9c\jinclude.h">
-      <Filter>usrapp\demo\xui_demo\xboot\src\external\libjpeg</Filter>
-    </ClInclude>
-    <ClInclude Include="..\..\..\xboot\src\external\jpeg-9c\jmemsys.h">
-      <Filter>usrapp\demo\xui_demo\xboot\src\external\libjpeg</Filter>
-    </ClInclude>
-    <ClInclude Include="..\..\..\xboot\src\external\jpeg-9c\jmorecfg.h">
-      <Filter>usrapp\demo\xui_demo\xboot\src\external\libjpeg</Filter>
-    </ClInclude>
-    <ClInclude Include="..\..\..\xboot\src\external\jpeg-9c\jpegint.h">
-      <Filter>usrapp\demo\xui_demo\xboot\src\external\libjpeg</Filter>
-    </ClInclude>
-    <ClInclude Include="..\..\..\xboot\src\external\jpeg-9c\jpeglib.h">
-      <Filter>usrapp\demo\xui_demo\xboot\src\external\libjpeg</Filter>
-    </ClInclude>
-    <ClInclude Include="..\..\..\xboot\src\external\jpeg-9c\jversion.h">
-      <Filter>usrapp\demo\xui_demo\xboot\src\external\libjpeg</Filter>
-    </ClInclude>
     <ClInclude Include="..\..\..\zlib\crc32.h">
       <Filter>usrapp\demo\lib\zlib</Filter>
     </ClInclude>
@@ -1814,6 +1784,30 @@
     </ClInclude>
     <ClInclude Include="..\..\..\libpng\pnglibconf.h">
       <Filter>usrapp\demo\lib\libpng</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\jpeg-9d\jdct.h">
+      <Filter>usrapp\demo\lib\jpeg</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\jpeg-9d\jerror.h">
+      <Filter>usrapp\demo\lib\jpeg</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\jpeg-9d\jinclude.h">
+      <Filter>usrapp\demo\lib\jpeg</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\jpeg-9d\jmemsys.h">
+      <Filter>usrapp\demo\lib\jpeg</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\jpeg-9d\jmorecfg.h">
+      <Filter>usrapp\demo\lib\jpeg</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\jpeg-9d\jpegint.h">
+      <Filter>usrapp\demo\lib\jpeg</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\jpeg-9d\jpeglib.h">
+      <Filter>usrapp\demo\lib\jpeg</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\jpeg-9d\jversion.h">
+      <Filter>usrapp\demo\lib\jpeg</Filter>
     </ClInclude>
   </ItemGroup>
   <ItemGroup>
@@ -2540,144 +2534,6 @@
     <ClCompile Include="..\..\..\freetype\src\cid\type1cid.c">
       <Filter>usrapp\demo\freetype_demo\freetype\src\cid</Filter>
     </ClCompile>
-    <ClCompile Include="..\..\..\xboot\src\external\jpeg-9c\jaricom.c">
-      <Filter>usrapp\demo\xui_demo\xboot\src\external\libjpeg</Filter>
-    </ClCompile>
-    <ClCompile Include="..\..\..\xboot\src\external\jpeg-9c\jcapimin.c">
-      <Filter>usrapp\demo\xui_demo\xboot\src\external\libjpeg</Filter>
-    </ClCompile>
-    <ClCompile Include="..\..\..\xboot\src\external\jpeg-9c\jcapistd.c">
-      <Filter>usrapp\demo\xui_demo\xboot\src\external\libjpeg</Filter>
-    </ClCompile>
-    <ClCompile Include="..\..\..\xboot\src\external\jpeg-9c\jcarith.c">
-      <Filter>usrapp\demo\xui_demo\xboot\src\external\libjpeg</Filter>
-    </ClCompile>
-    <ClCompile Include="..\..\..\xboot\src\external\jpeg-9c\jccoefct.c">
-      <Filter>usrapp\demo\xui_demo\xboot\src\external\libjpeg</Filter>
-    </ClCompile>
-    <ClCompile Include="..\..\..\xboot\src\external\jpeg-9c\jccolor.c">
-      <Filter>usrapp\demo\xui_demo\xboot\src\external\libjpeg</Filter>
-    </ClCompile>
-    <ClCompile Include="..\..\..\xboot\src\external\jpeg-9c\jcdctmgr.c">
-      <Filter>usrapp\demo\xui_demo\xboot\src\external\libjpeg</Filter>
-    </ClCompile>
-    <ClCompile Include="..\..\..\xboot\src\external\jpeg-9c\jchuff.c">
-      <Filter>usrapp\demo\xui_demo\xboot\src\external\libjpeg</Filter>
-    </ClCompile>
-    <ClCompile Include="..\..\..\xboot\src\external\jpeg-9c\jcinit.c">
-      <Filter>usrapp\demo\xui_demo\xboot\src\external\libjpeg</Filter>
-    </ClCompile>
-    <ClCompile Include="..\..\..\xboot\src\external\jpeg-9c\jcmainct.c">
-      <Filter>usrapp\demo\xui_demo\xboot\src\external\libjpeg</Filter>
-    </ClCompile>
-    <ClCompile Include="..\..\..\xboot\src\external\jpeg-9c\jcmarker.c">
-      <Filter>usrapp\demo\xui_demo\xboot\src\external\libjpeg</Filter>
-    </ClCompile>
-    <ClCompile Include="..\..\..\xboot\src\external\jpeg-9c\jcmaster.c">
-      <Filter>usrapp\demo\xui_demo\xboot\src\external\libjpeg</Filter>
-    </ClCompile>
-    <ClCompile Include="..\..\..\xboot\src\external\jpeg-9c\jcomapi.c">
-      <Filter>usrapp\demo\xui_demo\xboot\src\external\libjpeg</Filter>
-    </ClCompile>
-    <ClCompile Include="..\..\..\xboot\src\external\jpeg-9c\jcparam.c">
-      <Filter>usrapp\demo\xui_demo\xboot\src\external\libjpeg</Filter>
-    </ClCompile>
-    <ClCompile Include="..\..\..\xboot\src\external\jpeg-9c\jcprepct.c">
-      <Filter>usrapp\demo\xui_demo\xboot\src\external\libjpeg</Filter>
-    </ClCompile>
-    <ClCompile Include="..\..\..\xboot\src\external\jpeg-9c\jcsample.c">
-      <Filter>usrapp\demo\xui_demo\xboot\src\external\libjpeg</Filter>
-    </ClCompile>
-    <ClCompile Include="..\..\..\xboot\src\external\jpeg-9c\jctrans.c">
-      <Filter>usrapp\demo\xui_demo\xboot\src\external\libjpeg</Filter>
-    </ClCompile>
-    <ClCompile Include="..\..\..\xboot\src\external\jpeg-9c\jdapimin.c">
-      <Filter>usrapp\demo\xui_demo\xboot\src\external\libjpeg</Filter>
-    </ClCompile>
-    <ClCompile Include="..\..\..\xboot\src\external\jpeg-9c\jdapistd.c">
-      <Filter>usrapp\demo\xui_demo\xboot\src\external\libjpeg</Filter>
-    </ClCompile>
-    <ClCompile Include="..\..\..\xboot\src\external\jpeg-9c\jdarith.c">
-      <Filter>usrapp\demo\xui_demo\xboot\src\external\libjpeg</Filter>
-    </ClCompile>
-    <ClCompile Include="..\..\..\xboot\src\external\jpeg-9c\jdatadst.c">
-      <Filter>usrapp\demo\xui_demo\xboot\src\external\libjpeg</Filter>
-    </ClCompile>
-    <ClCompile Include="..\..\..\xboot\src\external\jpeg-9c\jdatasrc.c">
-      <Filter>usrapp\demo\xui_demo\xboot\src\external\libjpeg</Filter>
-    </ClCompile>
-    <ClCompile Include="..\..\..\xboot\src\external\jpeg-9c\jdcoefct.c">
-      <Filter>usrapp\demo\xui_demo\xboot\src\external\libjpeg</Filter>
-    </ClCompile>
-    <ClCompile Include="..\..\..\xboot\src\external\jpeg-9c\jdcolor.c">
-      <Filter>usrapp\demo\xui_demo\xboot\src\external\libjpeg</Filter>
-    </ClCompile>
-    <ClCompile Include="..\..\..\xboot\src\external\jpeg-9c\jddctmgr.c">
-      <Filter>usrapp\demo\xui_demo\xboot\src\external\libjpeg</Filter>
-    </ClCompile>
-    <ClCompile Include="..\..\..\xboot\src\external\jpeg-9c\jdhuff.c">
-      <Filter>usrapp\demo\xui_demo\xboot\src\external\libjpeg</Filter>
-    </ClCompile>
-    <ClCompile Include="..\..\..\xboot\src\external\jpeg-9c\jdinput.c">
-      <Filter>usrapp\demo\xui_demo\xboot\src\external\libjpeg</Filter>
-    </ClCompile>
-    <ClCompile Include="..\..\..\xboot\src\external\jpeg-9c\jdmainct.c">
-      <Filter>usrapp\demo\xui_demo\xboot\src\external\libjpeg</Filter>
-    </ClCompile>
-    <ClCompile Include="..\..\..\xboot\src\external\jpeg-9c\jdmarker.c">
-      <Filter>usrapp\demo\xui_demo\xboot\src\external\libjpeg</Filter>
-    </ClCompile>
-    <ClCompile Include="..\..\..\xboot\src\external\jpeg-9c\jdmaster.c">
-      <Filter>usrapp\demo\xui_demo\xboot\src\external\libjpeg</Filter>
-    </ClCompile>
-    <ClCompile Include="..\..\..\xboot\src\external\jpeg-9c\jdmerge.c">
-      <Filter>usrapp\demo\xui_demo\xboot\src\external\libjpeg</Filter>
-    </ClCompile>
-    <ClCompile Include="..\..\..\xboot\src\external\jpeg-9c\jdpostct.c">
-      <Filter>usrapp\demo\xui_demo\xboot\src\external\libjpeg</Filter>
-    </ClCompile>
-    <ClCompile Include="..\..\..\xboot\src\external\jpeg-9c\jdsample.c">
-      <Filter>usrapp\demo\xui_demo\xboot\src\external\libjpeg</Filter>
-    </ClCompile>
-    <ClCompile Include="..\..\..\xboot\src\external\jpeg-9c\jdtrans.c">
-      <Filter>usrapp\demo\xui_demo\xboot\src\external\libjpeg</Filter>
-    </ClCompile>
-    <ClCompile Include="..\..\..\xboot\src\external\jpeg-9c\jerror.c">
-      <Filter>usrapp\demo\xui_demo\xboot\src\external\libjpeg</Filter>
-    </ClCompile>
-    <ClCompile Include="..\..\..\xboot\src\external\jpeg-9c\jfdctflt.c">
-      <Filter>usrapp\demo\xui_demo\xboot\src\external\libjpeg</Filter>
-    </ClCompile>
-    <ClCompile Include="..\..\..\xboot\src\external\jpeg-9c\jfdctfst.c">
-      <Filter>usrapp\demo\xui_demo\xboot\src\external\libjpeg</Filter>
-    </ClCompile>
-    <ClCompile Include="..\..\..\xboot\src\external\jpeg-9c\jfdctint.c">
-      <Filter>usrapp\demo\xui_demo\xboot\src\external\libjpeg</Filter>
-    </ClCompile>
-    <ClCompile Include="..\..\..\xboot\src\external\jpeg-9c\jidctflt.c">
-      <Filter>usrapp\demo\xui_demo\xboot\src\external\libjpeg</Filter>
-    </ClCompile>
-    <ClCompile Include="..\..\..\xboot\src\external\jpeg-9c\jidctfst.c">
-      <Filter>usrapp\demo\xui_demo\xboot\src\external\libjpeg</Filter>
-    </ClCompile>
-    <ClCompile Include="..\..\..\xboot\src\external\jpeg-9c\jidctint.c">
-      <Filter>usrapp\demo\xui_demo\xboot\src\external\libjpeg</Filter>
-    </ClCompile>
-    <ClCompile Include="..\..\..\xboot\src\external\jpeg-9c\jmemmgr.c">
-      <Filter>usrapp\demo\xui_demo\xboot\src\external\libjpeg</Filter>
-    </ClCompile>
-    <ClCompile Include="..\..\..\xboot\src\external\jpeg-9c\jmemnobs.c">
-      <Filter>usrapp\demo\xui_demo\xboot\src\external\libjpeg</Filter>
-    </ClCompile>
-    <ClCompile Include="..\..\..\xboot\src\external\jpeg-9c\jquant1.c">
-      <Filter>usrapp\demo\xui_demo\xboot\src\external\libjpeg</Filter>
-    </ClCompile>
-    <ClCompile Include="..\..\..\xboot\src\external\jpeg-9c\jquant2.c">
-      <Filter>usrapp\demo\xui_demo\xboot\src\external\libjpeg</Filter>
-    </ClCompile>
-    <ClCompile Include="..\..\..\xboot\src\external\jpeg-9c\jutils.c">
-      <Filter>usrapp\demo\xui_demo\xboot\src\external\libjpeg</Filter>
-    </ClCompile>
     <ClCompile Include="..\..\..\xboot\src\kernel\graphic\color.c">
       <Filter>usrapp\demo\xui_demo\xboot\src\kernel\graphic</Filter>
     </ClCompile>
@@ -2848,6 +2704,156 @@
     </ClCompile>
     <ClCompile Include="..\..\..\libpng\pngwutil.c">
       <Filter>usrapp\demo\lib\libpng</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\jpeg-9d\jaricom.c">
+      <Filter>usrapp\demo\lib\jpeg</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\jpeg-9d\jcapimin.c">
+      <Filter>usrapp\demo\lib\jpeg</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\jpeg-9d\jcapistd.c">
+      <Filter>usrapp\demo\lib\jpeg</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\jpeg-9d\jcarith.c">
+      <Filter>usrapp\demo\lib\jpeg</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\jpeg-9d\jccoefct.c">
+      <Filter>usrapp\demo\lib\jpeg</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\jpeg-9d\jccolor.c">
+      <Filter>usrapp\demo\lib\jpeg</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\jpeg-9d\jcdctmgr.c">
+      <Filter>usrapp\demo\lib\jpeg</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\jpeg-9d\jchuff.c">
+      <Filter>usrapp\demo\lib\jpeg</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\jpeg-9d\jcinit.c">
+      <Filter>usrapp\demo\lib\jpeg</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\jpeg-9d\jcmainct.c">
+      <Filter>usrapp\demo\lib\jpeg</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\jpeg-9d\jcmarker.c">
+      <Filter>usrapp\demo\lib\jpeg</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\jpeg-9d\jcmaster.c">
+      <Filter>usrapp\demo\lib\jpeg</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\jpeg-9d\jcomapi.c">
+      <Filter>usrapp\demo\lib\jpeg</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\jpeg-9d\jcparam.c">
+      <Filter>usrapp\demo\lib\jpeg</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\jpeg-9d\jcprepct.c">
+      <Filter>usrapp\demo\lib\jpeg</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\jpeg-9d\jcsample.c">
+      <Filter>usrapp\demo\lib\jpeg</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\jpeg-9d\jctrans.c">
+      <Filter>usrapp\demo\lib\jpeg</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\jpeg-9d\jdapimin.c">
+      <Filter>usrapp\demo\lib\jpeg</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\jpeg-9d\jdapistd.c">
+      <Filter>usrapp\demo\lib\jpeg</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\jpeg-9d\jdarith.c">
+      <Filter>usrapp\demo\lib\jpeg</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\jpeg-9d\jdatadst.c">
+      <Filter>usrapp\demo\lib\jpeg</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\jpeg-9d\jdatasrc.c">
+      <Filter>usrapp\demo\lib\jpeg</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\jpeg-9d\jdcoefct.c">
+      <Filter>usrapp\demo\lib\jpeg</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\jpeg-9d\jdcolor.c">
+      <Filter>usrapp\demo\lib\jpeg</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\jpeg-9d\jddctmgr.c">
+      <Filter>usrapp\demo\lib\jpeg</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\jpeg-9d\jdhuff.c">
+      <Filter>usrapp\demo\lib\jpeg</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\jpeg-9d\jdinput.c">
+      <Filter>usrapp\demo\lib\jpeg</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\jpeg-9d\jdmainct.c">
+      <Filter>usrapp\demo\lib\jpeg</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\jpeg-9d\jdmarker.c">
+      <Filter>usrapp\demo\lib\jpeg</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\jpeg-9d\jdmaster.c">
+      <Filter>usrapp\demo\lib\jpeg</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\jpeg-9d\jdmerge.c">
+      <Filter>usrapp\demo\lib\jpeg</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\jpeg-9d\jdpostct.c">
+      <Filter>usrapp\demo\lib\jpeg</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\jpeg-9d\jdsample.c">
+      <Filter>usrapp\demo\lib\jpeg</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\jpeg-9d\jdtrans.c">
+      <Filter>usrapp\demo\lib\jpeg</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\jpeg-9d\jerror.c">
+      <Filter>usrapp\demo\lib\jpeg</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\jpeg-9d\jfdctflt.c">
+      <Filter>usrapp\demo\lib\jpeg</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\jpeg-9d\jfdctfst.c">
+      <Filter>usrapp\demo\lib\jpeg</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\jpeg-9d\jfdctint.c">
+      <Filter>usrapp\demo\lib\jpeg</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\jpeg-9d\jidctflt.c">
+      <Filter>usrapp\demo\lib\jpeg</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\jpeg-9d\jidctfst.c">
+      <Filter>usrapp\demo\lib\jpeg</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\jpeg-9d\jidctint.c">
+      <Filter>usrapp\demo\lib\jpeg</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\jpeg-9d\jmemansi.c">
+      <Filter>usrapp\demo\lib\jpeg</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\jpeg-9d\jmemdos.c">
+      <Filter>usrapp\demo\lib\jpeg</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\jpeg-9d\jmemmac.c">
+      <Filter>usrapp\demo\lib\jpeg</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\jpeg-9d\jmemmgr.c">
+      <Filter>usrapp\demo\lib\jpeg</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\jpeg-9d\jmemname.c">
+      <Filter>usrapp\demo\lib\jpeg</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\jpeg-9d\jmemnobs.c">
+      <Filter>usrapp\demo\lib\jpeg</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\jpeg-9d\jquant1.c">
+      <Filter>usrapp\demo\lib\jpeg</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\jpeg-9d\jquant2.c">
+      <Filter>usrapp\demo\lib\jpeg</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\jpeg-9d\jutils.c">
+      <Filter>usrapp\demo\lib\jpeg</Filter>
     </ClCompile>
   </ItemGroup>
   <ItemGroup>

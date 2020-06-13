@@ -9,16 +9,15 @@ port game emulators to vsf
 * xboot -- MIT
 * freetype-2.10.2 -- FTL
 * zlib -- zlib
+* libpng -- 
+* jpeg-9c -- 
 
 # patches
 
 ## VisualBoyAdvance
-1. Apply VisualBoyAdvance.patch to VisualBoyAdvance
+1. Apply patches/VisualBoyAdvance.patch to VisualBoyAdvance
 2. Copy rom to vsf_emu/project/vc/winfs_root/vba/
 3. Start with command: vba ./winfs_root/vba/xxxx.gba
 
 ## freetype
-1. ~~Apply freetype.patch to freetype~~
-
-## libpng
-1. copy libpng/scripts/pnglibconf.h.prebuilt to libpng/pnglibconf.h
+1. ~~Apply patches/freetype.patch to freetype~~

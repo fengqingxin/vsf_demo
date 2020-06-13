@@ -574,9 +574,6 @@
     <Filter Include="usrapp\demo\xui_demo\xboot\src\external\libjpeg">
       <UniqueIdentifier>{1830633e-e5bf-4c2b-88fa-19fbf22f9dcc}</UniqueIdentifier>
     </Filter>
-    <Filter Include="usrapp\demo\xui_demo\xboot\src\external\libpng">
-      <UniqueIdentifier>{fe605175-8b02-4731-8ea2-6a9143f67a02}</UniqueIdentifier>
-    </Filter>
     <Filter Include="usrapp\demo\xui_demo\xboot\src\kernel">
       <UniqueIdentifier>{82ca0fda-5382-4519-a5e6-e7cb95758c5e}</UniqueIdentifier>
     </Filter>
@@ -594,6 +591,9 @@
     </Filter>
     <Filter Include="usrapp\demo\lib\zlib">
       <UniqueIdentifier>{b5a97e24-3809-4f06-bfeb-f79df78743ef}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="usrapp\demo\lib\libpng">
+      <UniqueIdentifier>{0da5bd2f-5179-4ada-afd5-d847d124a22f}</UniqueIdentifier>
     </Filter>
   </ItemGroup>
   <ItemGroup>
@@ -1761,30 +1761,6 @@
     <ClInclude Include="..\..\..\xboot\src\external\jpeg-9c\jversion.h">
       <Filter>usrapp\demo\xui_demo\xboot\src\external\libjpeg</Filter>
     </ClInclude>
-    <ClInclude Include="..\..\..\xboot\src\external\libpng-1.6.37\png.h">
-      <Filter>usrapp\demo\xui_demo\xboot\src\external\libpng</Filter>
-    </ClInclude>
-    <ClInclude Include="..\..\..\xboot\src\external\libpng-1.6.37\pngconf.h">
-      <Filter>usrapp\demo\xui_demo\xboot\src\external\libpng</Filter>
-    </ClInclude>
-    <ClInclude Include="..\..\..\xboot\src\external\libpng-1.6.37\pngdebug.h">
-      <Filter>usrapp\demo\xui_demo\xboot\src\external\libpng</Filter>
-    </ClInclude>
-    <ClInclude Include="..\..\..\xboot\src\external\libpng-1.6.37\pnginfo.h">
-      <Filter>usrapp\demo\xui_demo\xboot\src\external\libpng</Filter>
-    </ClInclude>
-    <ClInclude Include="..\..\..\xboot\src\external\libpng-1.6.37\pnglibconf.h">
-      <Filter>usrapp\demo\xui_demo\xboot\src\external\libpng</Filter>
-    </ClInclude>
-    <ClInclude Include="..\..\..\xboot\src\external\libpng-1.6.37\pngprefix.h">
-      <Filter>usrapp\demo\xui_demo\xboot\src\external\libpng</Filter>
-    </ClInclude>
-    <ClInclude Include="..\..\..\xboot\src\external\libpng-1.6.37\pngpriv.h">
-      <Filter>usrapp\demo\xui_demo\xboot\src\external\libpng</Filter>
-    </ClInclude>
-    <ClInclude Include="..\..\..\xboot\src\external\libpng-1.6.37\pngstruct.h">
-      <Filter>usrapp\demo\xui_demo\xboot\src\external\libpng</Filter>
-    </ClInclude>
     <ClInclude Include="..\..\..\zlib\crc32.h">
       <Filter>usrapp\demo\lib\zlib</Filter>
     </ClInclude>
@@ -1817,6 +1793,24 @@
     </ClInclude>
     <ClInclude Include="..\..\..\zlib\zutil.h">
       <Filter>usrapp\demo\lib\zlib</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\libpng\png.h">
+      <Filter>usrapp\demo\lib\libpng</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\libpng\pngconf.h">
+      <Filter>usrapp\demo\lib\libpng</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\libpng\pngdebug.h">
+      <Filter>usrapp\demo\lib\libpng</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\libpng\pnginfo.h">
+      <Filter>usrapp\demo\lib\libpng</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\libpng\pngpriv.h">
+      <Filter>usrapp\demo\lib\libpng</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\libpng\pngstruct.h">
+      <Filter>usrapp\demo\lib\libpng</Filter>
     </ClInclude>
   </ItemGroup>
   <ItemGroup>
@@ -2681,51 +2675,6 @@
     <ClCompile Include="..\..\..\xboot\src\external\jpeg-9c\jutils.c">
       <Filter>usrapp\demo\xui_demo\xboot\src\external\libjpeg</Filter>
     </ClCompile>
-    <ClCompile Include="..\..\..\xboot\src\external\libpng-1.6.37\png.c">
-      <Filter>usrapp\demo\xui_demo\xboot\src\external\libpng</Filter>
-    </ClCompile>
-    <ClCompile Include="..\..\..\xboot\src\external\libpng-1.6.37\pngerror.c">
-      <Filter>usrapp\demo\xui_demo\xboot\src\external\libpng</Filter>
-    </ClCompile>
-    <ClCompile Include="..\..\..\xboot\src\external\libpng-1.6.37\pngget.c">
-      <Filter>usrapp\demo\xui_demo\xboot\src\external\libpng</Filter>
-    </ClCompile>
-    <ClCompile Include="..\..\..\xboot\src\external\libpng-1.6.37\pngmem.c">
-      <Filter>usrapp\demo\xui_demo\xboot\src\external\libpng</Filter>
-    </ClCompile>
-    <ClCompile Include="..\..\..\xboot\src\external\libpng-1.6.37\pngpread.c">
-      <Filter>usrapp\demo\xui_demo\xboot\src\external\libpng</Filter>
-    </ClCompile>
-    <ClCompile Include="..\..\..\xboot\src\external\libpng-1.6.37\pngread.c">
-      <Filter>usrapp\demo\xui_demo\xboot\src\external\libpng</Filter>
-    </ClCompile>
-    <ClCompile Include="..\..\..\xboot\src\external\libpng-1.6.37\pngrio.c">
-      <Filter>usrapp\demo\xui_demo\xboot\src\external\libpng</Filter>
-    </ClCompile>
-    <ClCompile Include="..\..\..\xboot\src\external\libpng-1.6.37\pngrtran.c">
-      <Filter>usrapp\demo\xui_demo\xboot\src\external\libpng</Filter>
-    </ClCompile>
-    <ClCompile Include="..\..\..\xboot\src\external\libpng-1.6.37\pngrutil.c">
-      <Filter>usrapp\demo\xui_demo\xboot\src\external\libpng</Filter>
-    </ClCompile>
-    <ClCompile Include="..\..\..\xboot\src\external\libpng-1.6.37\pngset.c">
-      <Filter>usrapp\demo\xui_demo\xboot\src\external\libpng</Filter>
-    </ClCompile>
-    <ClCompile Include="..\..\..\xboot\src\external\libpng-1.6.37\pngtrans.c">
-      <Filter>usrapp\demo\xui_demo\xboot\src\external\libpng</Filter>
-    </ClCompile>
-    <ClCompile Include="..\..\..\xboot\src\external\libpng-1.6.37\pngwio.c">
-      <Filter>usrapp\demo\xui_demo\xboot\src\external\libpng</Filter>
-    </ClCompile>
-    <ClCompile Include="..\..\..\xboot\src\external\libpng-1.6.37\pngwrite.c">
-      <Filter>usrapp\demo\xui_demo\xboot\src\external\libpng</Filter>
-    </ClCompile>
-    <ClCompile Include="..\..\..\xboot\src\external\libpng-1.6.37\pngwtran.c">
-      <Filter>usrapp\demo\xui_demo\xboot\src\external\libpng</Filter>
-    </ClCompile>
-    <ClCompile Include="..\..\..\xboot\src\external\libpng-1.6.37\pngwutil.c">
-      <Filter>usrapp\demo\xui_demo\xboot\src\external\libpng</Filter>
-    </ClCompile>
     <ClCompile Include="..\..\..\xboot\src\kernel\graphic\color.c">
       <Filter>usrapp\demo\xui_demo\xboot\src\kernel\graphic</Filter>
     </ClCompile>
@@ -2851,6 +2800,54 @@
     </ClCompile>
     <ClCompile Include="..\..\..\zlib\zutil.c">
       <Filter>usrapp\demo\lib\zlib</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\libpng\png.c">
+      <Filter>usrapp\demo\lib\libpng</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\libpng\pngerror.c">
+      <Filter>usrapp\demo\lib\libpng</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\libpng\pngget.c">
+      <Filter>usrapp\demo\lib\libpng</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\libpng\pngmem.c">
+      <Filter>usrapp\demo\lib\libpng</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\libpng\pngpread.c">
+      <Filter>usrapp\demo\lib\libpng</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\libpng\pngread.c">
+      <Filter>usrapp\demo\lib\libpng</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\libpng\pngrio.c">
+      <Filter>usrapp\demo\lib\libpng</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\libpng\pngrtran.c">
+      <Filter>usrapp\demo\lib\libpng</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\libpng\pngrutil.c">
+      <Filter>usrapp\demo\lib\libpng</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\libpng\pngset.c">
+      <Filter>usrapp\demo\lib\libpng</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\libpng\pngtest.c">
+      <Filter>usrapp\demo\lib\libpng</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\libpng\pngtrans.c">
+      <Filter>usrapp\demo\lib\libpng</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\libpng\pngwio.c">
+      <Filter>usrapp\demo\lib\libpng</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\libpng\pngwrite.c">
+      <Filter>usrapp\demo\lib\libpng</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\libpng\pngwtran.c">
+      <Filter>usrapp\demo\lib\libpng</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\libpng\pngwutil.c">
+      <Filter>usrapp\demo\lib\libpng</Filter>
     </ClCompile>
   </ItemGroup>
   <ItemGroup>

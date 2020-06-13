@@ -19,3 +19,6 @@ port game emulators to vsf
 
 ## freetype
 1. ~~Apply freetype.patch to freetype~~
+
+## libpng
+1. copy libpng/scripts/pnglibconf.h.prebuilt to libpng/pnglibconf.h

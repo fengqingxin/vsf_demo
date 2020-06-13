@@ -111,6 +111,12 @@
     <ClInclude Include="..\..\..\freetype\include\freetype\ttnameid.h" />
     <ClInclude Include="..\..\..\freetype\include\freetype\tttables.h" />
     <ClInclude Include="..\..\..\freetype\include\freetype\tttags.h" />
+    <ClInclude Include="..\..\..\libpng\png.h" />
+    <ClInclude Include="..\..\..\libpng\pngconf.h" />
+    <ClInclude Include="..\..\..\libpng\pngdebug.h" />
+    <ClInclude Include="..\..\..\libpng\pnginfo.h" />
+    <ClInclude Include="..\..\..\libpng\pngpriv.h" />
+    <ClInclude Include="..\..\..\libpng\pngstruct.h" />
     <ClInclude Include="..\..\..\vsf\source\vsf\component\av\audio\decoder\wav\vsf_wav.h" />
     <ClInclude Include="..\..\..\vsf\source\vsf\component\av\audio\driver\winsound\vsf_winsound.h" />
     <ClInclude Include="..\..\..\vsf\source\vsf\component\av\audio\vsf_audio.h" />
@@ -368,14 +374,6 @@
     <ClInclude Include="..\..\..\xboot\src\external\jpeg-9c\jpegint.h" />
     <ClInclude Include="..\..\..\xboot\src\external\jpeg-9c\jpeglib.h" />
     <ClInclude Include="..\..\..\xboot\src\external\jpeg-9c\jversion.h" />
-    <ClInclude Include="..\..\..\xboot\src\external\libpng-1.6.37\png.h" />
-    <ClInclude Include="..\..\..\xboot\src\external\libpng-1.6.37\pngconf.h" />
-    <ClInclude Include="..\..\..\xboot\src\external\libpng-1.6.37\pngdebug.h" />
-    <ClInclude Include="..\..\..\xboot\src\external\libpng-1.6.37\pnginfo.h" />
-    <ClInclude Include="..\..\..\xboot\src\external\libpng-1.6.37\pnglibconf.h" />
-    <ClInclude Include="..\..\..\xboot\src\external\libpng-1.6.37\pngprefix.h" />
-    <ClInclude Include="..\..\..\xboot\src\external\libpng-1.6.37\pngpriv.h" />
-    <ClInclude Include="..\..\..\xboot\src\external\libpng-1.6.37\pngstruct.h" />
     <ClInclude Include="..\..\..\zlib\crc32.h" />
     <ClInclude Include="..\..\..\zlib\deflate.h" />
     <ClInclude Include="..\..\..\zlib\gzguts.h" />
@@ -469,6 +467,22 @@
     <ClCompile Include="..\..\..\freetype\src\type1\type1.c" />
     <ClCompile Include="..\..\..\freetype\src\type42\type42.c" />
     <ClCompile Include="..\..\..\freetype\src\winfonts\winfnt.c" />
+    <ClCompile Include="..\..\..\libpng\png.c" />
+    <ClCompile Include="..\..\..\libpng\pngerror.c" />
+    <ClCompile Include="..\..\..\libpng\pngget.c" />
+    <ClCompile Include="..\..\..\libpng\pngmem.c" />
+    <ClCompile Include="..\..\..\libpng\pngpread.c" />
+    <ClCompile Include="..\..\..\libpng\pngread.c" />
+    <ClCompile Include="..\..\..\libpng\pngrio.c" />
+    <ClCompile Include="..\..\..\libpng\pngrtran.c" />
+    <ClCompile Include="..\..\..\libpng\pngrutil.c" />
+    <ClCompile Include="..\..\..\libpng\pngset.c" />
+    <ClCompile Include="..\..\..\libpng\pngtest.c" />
+    <ClCompile Include="..\..\..\libpng\pngtrans.c" />
+    <ClCompile Include="..\..\..\libpng\pngwio.c" />
+    <ClCompile Include="..\..\..\libpng\pngwrite.c" />
+    <ClCompile Include="..\..\..\libpng\pngwtran.c" />
+    <ClCompile Include="..\..\..\libpng\pngwutil.c" />
     <ClCompile Include="..\..\..\vsf\source\vsf\component\av\audio\decoder\wav\vsf_wav.c" />
     <ClCompile Include="..\..\..\vsf\source\vsf\component\av\audio\driver\winsound\vsf_winsound.c" />
     <ClCompile Include="..\..\..\vsf\source\vsf\component\av\audio\vsf_audio.c" />
@@ -653,21 +667,6 @@
     <ClCompile Include="..\..\..\xboot\src\external\jpeg-9c\jquant1.c" />
     <ClCompile Include="..\..\..\xboot\src\external\jpeg-9c\jquant2.c" />
     <ClCompile Include="..\..\..\xboot\src\external\jpeg-9c\jutils.c" />
-    <ClCompile Include="..\..\..\xboot\src\external\libpng-1.6.37\png.c" />
-    <ClCompile Include="..\..\..\xboot\src\external\libpng-1.6.37\pngerror.c" />
-    <ClCompile Include="..\..\..\xboot\src\external\libpng-1.6.37\pngget.c" />
-    <ClCompile Include="..\..\..\xboot\src\external\libpng-1.6.37\pngmem.c" />
-    <ClCompile Include="..\..\..\xboot\src\external\libpng-1.6.37\pngpread.c" />
-    <ClCompile Include="..\..\..\xboot\src\external\libpng-1.6.37\pngread.c" />
-    <ClCompile Include="..\..\..\xboot\src\external\libpng-1.6.37\pngrio.c" />
-    <ClCompile Include="..\..\..\xboot\src\external\libpng-1.6.37\pngrtran.c" />
-    <ClCompile Include="..\..\..\xboot\src\external\libpng-1.6.37\pngrutil.c" />
-    <ClCompile Include="..\..\..\xboot\src\external\libpng-1.6.37\pngset.c" />
-    <ClCompile Include="..\..\..\xboot\src\external\libpng-1.6.37\pngtrans.c" />
-    <ClCompile Include="..\..\..\xboot\src\external\libpng-1.6.37\pngwio.c" />
-    <ClCompile Include="..\..\..\xboot\src\external\libpng-1.6.37\pngwrite.c" />
-    <ClCompile Include="..\..\..\xboot\src\external\libpng-1.6.37\pngwtran.c" />
-    <ClCompile Include="..\..\..\xboot\src\external\libpng-1.6.37\pngwutil.c" />
     <ClCompile Include="..\..\..\xboot\src\kernel\graphic\color.c" />
     <ClCompile Include="..\..\..\xboot\src\kernel\graphic\font.c" />
     <ClCompile Include="..\..\..\xboot\src\kernel\graphic\icon.c" />
@@ -875,7 +874,7 @@
       <SDLCheck>true</SDLCheck>
       <PreprocessorDefinitions>__CPU_X86__;__WIN__;__OOC_CPP__;WIN32;_DEBUG;_CONSOLE;LV_CONF_INCLUDE_SIMPLE;HAS_STD_MALLOC;HAS_AWTK_CONFIG;FT2_BUILD_LIBRARY;C_CORE;SDL;SYSCONFDIR="./winfs_root/vba";%(PreprocessorDefinitions)</PreprocessorDefinitions>
       <ConformanceMode>true</ConformanceMode>
-      <AdditionalIncludeDirectories>$(ProjectDir);$(ProjectDir)..\..\..\vsf\source\vsf;$(ProjectDir)..\..\..\vsf\source\vsf\shell\sys\linux\include;$(ProjectDir)..\..\..\vsf\source\vsf\shell\media\sdl2\include\SDL2;$(ProjectDir)..\..\..\vsf\source\vsf\shell\sys\xboot\include;$(ProjectDir)..\..\..\vsf\source\vsf\shell\sys\xboot\include\arch;$(ProjectDir)..\..\config;$(ProjectDir)lib\awtk\include;$(ProjectDir)lib\awtk\include\ext_widgets;$(ProjectDir)..\..\..\vsf\source\vsf\component\3rd-party\nnom\raw\inc;$(ProjectDir)..\..\..\vsf\source\vsf\component\3rd-party\nnom\port;$(ProjectDir)..\..\..\vsf\source\vsf\component\3rd-party\littlevgl\6.0\raw;$(ProjectDir)..\..\..\vsf\source\vsf\component\3rd-party\btstack\raw\src;$(ProjectDir)..\..\..\vsf\source\vsf\component\3rd-party\btstack\raw\chipset;$(ProjectDir)..\..\..\vsf\source\vsf\component\3rd-party\vsfvm\raw;$(ProjectDir)..\..\..\zlib;$(ProjectDir)..\..\..\VisualBoyAdvance\src;$(ProjectDir)..\..\..\freetype\include;$(ProjectDir)..\..\..\xboot\src\include;$(ProjectDir)..\..\..\xboot\src\external\jpeg-9c;$(ProjectDir)..\..\..\xboot\src\external\libpng-1.6.37;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <AdditionalIncludeDirectories>$(ProjectDir);$(ProjectDir)..\..\..\vsf\source\vsf;$(ProjectDir)..\..\..\vsf\source\vsf\shell\sys\linux\include;$(ProjectDir)..\..\..\vsf\source\vsf\shell\media\sdl2\include\SDL2;$(ProjectDir)..\..\..\vsf\source\vsf\shell\sys\xboot\include;$(ProjectDir)..\..\..\vsf\source\vsf\shell\sys\xboot\include\arch;$(ProjectDir)..\..\config;$(ProjectDir)lib\awtk\include;$(ProjectDir)lib\awtk\include\ext_widgets;$(ProjectDir)..\..\..\vsf\source\vsf\component\3rd-party\nnom\raw\inc;$(ProjectDir)..\..\..\vsf\source\vsf\component\3rd-party\nnom\port;$(ProjectDir)..\..\..\vsf\source\vsf\component\3rd-party\littlevgl\6.0\raw;$(ProjectDir)..\..\..\vsf\source\vsf\component\3rd-party\btstack\raw\src;$(ProjectDir)..\..\..\vsf\source\vsf\component\3rd-party\btstack\raw\chipset;$(ProjectDir)..\..\..\vsf\source\vsf\component\3rd-party\vsfvm\raw;$(ProjectDir)..\..\..\zlib;$(ProjectDir)..\..\..\libpng;$(ProjectDir)..\..\..\VisualBoyAdvance\src;$(ProjectDir)..\..\..\freetype\include;$(ProjectDir)..\..\..\xboot\src\include;$(ProjectDir)..\..\..\xboot\src\external\jpeg-9c;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
       <AdditionalOptions>-Wno-empty-body -Wno-microsoft-anon-tag -Wno-int-conversion -Wno-int-to-pointer-cast -Wno-missing-braces -Wno-pragma-pack -Wno-deprecated-declarations -Wno-unused-variable  -Wno-bitfield-constant-conversion -Wno-sometimes-uninitialized -Wno-unused-function -Wno-switch -Wno-pointer-integer-compare -fms-extensions %(AdditionalOptions)</AdditionalOptions>
       <MultiProcessorCompilation>true</MultiProcessorCompilation>
       <ExceptionHandling>false</ExceptionHandling>

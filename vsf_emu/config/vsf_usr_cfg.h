@@ -44,6 +44,12 @@
 #   define APP_CFG_USE_USBH_DEMO                        ENABLED
 #   define APP_CFG_USE_USBD_DEMO                        ENABLED
 #   define APP_CFG_USE_AUDIO_DEMO                       ENABLED
+#   define APP_CFG_USE_XBOOT_XUI_DEMO                   ENABLED
+
+#   if APP_CFG_USE_XBOOT_XUI_DEMO == ENABLED
+#       define APP_CFG_USE_FREETYPE_DEMO                ENABLED
+#       define APP_CFG_XBOOT_RES_DIR                    "./winfs_root/ui/"
+#   endif
 
 #endif
 

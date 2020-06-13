@@ -448,6 +448,24 @@
     <Filter Include="usrapp\demo\vba_demo\VisualBoyAdvance\SDL">
       <UniqueIdentifier>{8b874491-c4eb-48d9-a4f9-96ecefc670a5}</UniqueIdentifier>
     </Filter>
+    <Filter Include="usrapp\demo\freetype_demo">
+      <UniqueIdentifier>{95855ee6-54cb-403c-baa1-5bfbb3db85a4}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="vsf\shell\sys\xboot">
+      <UniqueIdentifier>{8796df68-bdbd-4294-bfbd-bb668a814ee0}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="vsf\shell\sys\xboot\include">
+      <UniqueIdentifier>{6bc9e2fb-ddf4-4fef-85fe-64bc1b1b525c}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="vsf\shell\sys\xboot\include\arch">
+      <UniqueIdentifier>{68409044-17d4-4969-9b94-d53caccc4581}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="vsf\shell\sys\xboot\include\xboot">
+      <UniqueIdentifier>{31a68fca-f297-468f-bb5f-9d288dd57c50}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="vsf\shell\sys\xboot\include\xfs">
+      <UniqueIdentifier>{fbb51d13-df05-4d66-8ed0-cb7cb961c507}</UniqueIdentifier>
+    </Filter>
   </ItemGroup>
   <ItemGroup>
     <ClInclude Include="..\..\..\vsf\source\vsf\vsf.h">
@@ -1305,6 +1323,42 @@
     <ClInclude Include="..\..\..\VisualBoyAdvance\win32\dependencies\zlib\zutil.h">
       <Filter>usrapp\demo\vba_demo\zlib</Filter>
     </ClInclude>
+    <ClInclude Include="..\..\..\vsf\source\vsf\shell\sys\xboot\vsf_xboot_cfg.h">
+      <Filter>vsf\shell\sys\xboot</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\vsf\source\vsf\shell\sys\xboot\include\io.h">
+      <Filter>vsf\shell\sys\xboot\include</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\vsf\source\vsf\shell\sys\xboot\include\stddef.h">
+      <Filter>vsf\shell\sys\xboot\include</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\vsf\source\vsf\shell\sys\xboot\include\types.h">
+      <Filter>vsf\shell\sys\xboot\include</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\vsf\source\vsf\shell\sys\xboot\include\xboot.h">
+      <Filter>vsf\shell\sys\xboot\include</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\vsf\source\vsf\shell\sys\xboot\include\arch\atomic.h">
+      <Filter>vsf\shell\sys\xboot\include\arch</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\vsf\source\vsf\shell\sys\xboot\include\arch\barrier.h">
+      <Filter>vsf\shell\sys\xboot\include\arch</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\vsf\source\vsf\shell\sys\xboot\include\arch\endian.h">
+      <Filter>vsf\shell\sys\xboot\include\arch</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\vsf\source\vsf\shell\sys\xboot\include\arch\irqflags.h">
+      <Filter>vsf\shell\sys\xboot\include\arch</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\vsf\source\vsf\shell\sys\xboot\include\arch\spinlock.h">
+      <Filter>vsf\shell\sys\xboot\include\arch</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\vsf\source\vsf\shell\sys\xboot\include\xboot\window.h">
+      <Filter>vsf\shell\sys\xboot\include\xfs</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\vsf\source\vsf\shell\sys\xboot\include\xfs\xfs.h">
+      <Filter>vsf\shell\sys\xboot\include\xboot</Filter>
+    </ClInclude>
   </ItemGroup>
   <ItemGroup>
     <ClCompile Include="..\..\..\vsf\source\vsf\utilities\compiler\x86\signal.c">
@@ -1936,6 +1990,12 @@
     </ClCompile>
     <ClCompile Include="..\..\..\VisualBoyAdvance\win32\dependencies\zlib\zutil.c">
       <Filter>usrapp\demo\vba_demo\zlib</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\vsf\source\vsf\shell\sys\xboot\vsf_xboot.c">
+      <Filter>vsf\shell\sys\xboot</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\demo\freetype_demo\freetype_demo.c">
+      <Filter>usrapp\demo\freetype_demo</Filter>
     </ClCompile>
   </ItemGroup>
   <ItemGroup>

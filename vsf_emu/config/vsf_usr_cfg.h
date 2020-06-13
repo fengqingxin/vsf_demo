@@ -248,7 +248,7 @@
 #   define VSF_USE_WINSOUND                             ENABLED
 #       define VSF_WINSOUND_CFG_TRACE                   DISABLED
 
-#   define VSF_LINUX_CFG_STACKSIZE                      32768
+#   define VSF_LINUX_CFG_STACKSIZE                      (60 * 1024)
 #   define VSF_TRACE_CFG_COLOR_EN                       ENABLED
 #   define VSH_ECHO                                     1
 

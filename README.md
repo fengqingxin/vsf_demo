@@ -2,15 +2,18 @@
 demos for vsf
 
 # software/library & license
-* vsf_emu -- GPL3.0
-* vsf -- Apache2.0
+* vsf_emu -- GPL 3.0
+* vsf -- Apache 2.0
 * SDL2 -- zlib
-* VisualBoyAdvance -- GPL2.0
+* VisualBoyAdvance -- GPL 2.0
 * xboot -- MIT
 * freetype-2.10.2 -- FTL
 * zlib -- zlib
 * libpng -- PNG Reference Library License v2
 * jpeg-9c -- 
+* Roboto -- Apache 2.0
+* Font Awesome -- OFD 1.1
+* vsfvm -- Apache 2.0
 
 # patches
 

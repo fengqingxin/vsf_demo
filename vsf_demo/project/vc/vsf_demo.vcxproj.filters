@@ -610,6 +610,48 @@
     <Filter Include="vsf\component\3rd-party\awtk\port\platforms\vsf">
       <UniqueIdentifier>{4d4e8539-6943-4809-9eea-8422ea153869}</UniqueIdentifier>
     </Filter>
+    <Filter Include="usrapp\demo\vsfvm_demo">
+      <UniqueIdentifier>{3cf65c3b-80bc-4134-aa51-3a8a7ac5c89c}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="vsf\component\3rd-party\vsfvm">
+      <UniqueIdentifier>{ac85b310-e4c3-43f1-a6c8-cb1d22479575}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="vsf\component\3rd-party\vsfvm\extension">
+      <UniqueIdentifier>{9558c052-a5fe-4671-833c-ea7b3cf69d47}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="vsf\component\3rd-party\vsfvm\extension\vsf">
+      <UniqueIdentifier>{91d4c1fa-af0d-4571-917e-519e26560c26}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="vsf\component\3rd-party\vsfvm\extension\vsf\kernel">
+      <UniqueIdentifier>{89c0d8b5-ba31-4ef1-94bd-ac4b5674a5f4}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="vsf\component\3rd-party\vsfvm\extension\vsf\libusb">
+      <UniqueIdentifier>{21c9e613-721e-4046-b805-914ba7d28185}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="vsf\component\3rd-party\vsfvm\raw">
+      <UniqueIdentifier>{100a0d9a-d8a7-45c6-bd25-5155ef482f0c}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="vsf\component\3rd-party\vsfvm\raw\common">
+      <UniqueIdentifier>{020641da-2ec7-46c6-b9e6-c0436d4dc5bf}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="vsf\component\3rd-party\vsfvm\raw\compiler">
+      <UniqueIdentifier>{e4e52ab3-4592-407a-8c21-6807aeda61d2}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="vsf\component\3rd-party\vsfvm\raw\compiler\lexer">
+      <UniqueIdentifier>{971556f7-a4f9-4397-960b-d5c9c0bbc8fa}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="vsf\component\3rd-party\vsfvm\raw\compiler\lexer\dart">
+      <UniqueIdentifier>{3a9d5625-30b7-45ff-993a-042309c7912e}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="vsf\component\3rd-party\vsfvm\raw\runtime">
+      <UniqueIdentifier>{d64a04c9-0a2d-4f3b-ac43-6331ccab1c1c}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="vsf\component\3rd-party\vsfvm\raw\extension">
+      <UniqueIdentifier>{fa1bf066-ceb0-444a-8b05-200c81ab4b6b}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="vsf\component\3rd-party\vsfvm\raw\extension\std">
+      <UniqueIdentifier>{d6292db3-68bb-4bae-ac9e-78d89cb99d4f}</UniqueIdentifier>
+    </Filter>
   </ItemGroup>
   <ItemGroup>
     <ClInclude Include="..\..\..\vsf\source\vsf\vsf.h">
@@ -1839,6 +1881,45 @@
     <ClInclude Include="..\..\..\vsf\source\vsf\component\3rd-party\awtk\port\vsf_awtk_port.h">
       <Filter>vsf\component\3rd-party\awtk\port</Filter>
     </ClInclude>
+    <ClInclude Include="..\..\..\vsf\source\vsf\component\3rd-party\vsfvm\extension\vsf\kernel\vsfvm_ext_kernel.h">
+      <Filter>vsf\component\3rd-party\vsfvm\extension\vsf\kernel</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\vsf\source\vsf\component\3rd-party\vsfvm\extension\vsf\libusb\vsfvm_ext_libusb.h">
+      <Filter>vsf\component\3rd-party\vsfvm\extension\vsf\libusb</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\vsf\source\vsf\component\3rd-party\vsfvm\raw\common\vsfvm_bytecode.h">
+      <Filter>vsf\component\3rd-party\vsfvm\raw\common</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\vsf\source\vsf\component\3rd-party\vsfvm\raw\common\vsfvm_common.h">
+      <Filter>vsf\component\3rd-party\vsfvm\raw\common</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\vsf\source\vsf\component\3rd-party\vsfvm\raw\common\vsfvm_objdump.h">
+      <Filter>vsf\component\3rd-party\vsfvm\raw\common</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\vsf\source\vsf\component\3rd-party\vsfvm\raw\compiler\lexer\dart\vsfvm_lexer_dart.h">
+      <Filter>vsf\component\3rd-party\vsfvm\raw\compiler\lexer\dart</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\vsf\source\vsf\component\3rd-party\vsfvm\raw\compiler\lexer\vsfvm_lexer.h">
+      <Filter>vsf\component\3rd-party\vsfvm\raw\compiler\lexer</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\vsf\source\vsf\component\3rd-party\vsfvm\raw\compiler\vsfvm_compiler.h">
+      <Filter>vsf\component\3rd-party\vsfvm\raw\compiler</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\vsf\source\vsf\component\3rd-party\vsfvm\raw\compiler\vsfvm_snapshot.h">
+      <Filter>vsf\component\3rd-party\vsfvm\raw\compiler</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\vsf\source\vsf\component\3rd-party\vsfvm\raw\runtime\vsfvm_runtime.h">
+      <Filter>vsf\component\3rd-party\vsfvm\raw\runtime</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\vsf\source\vsf\component\3rd-party\vsfvm\raw\extension\std\vsfvm_ext_std.h">
+      <Filter>vsf\component\3rd-party\vsfvm\raw\extension\std</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\vsf\source\vsf\component\3rd-party\vsfvm\raw\vsf_vm.h">
+      <Filter>vsf\component\3rd-party\vsfvm\raw</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\vsf\source\vsf\component\3rd-party\vsfvm\raw\vsf_vm_cfg.h">
+      <Filter>vsf\component\3rd-party\vsfvm\raw</Filter>
+    </ClInclude>
   </ItemGroup>
   <ItemGroup>
     <ClCompile Include="..\..\..\vsf\source\vsf\utilities\compiler\x86\signal.c">
@@ -2902,6 +2983,39 @@
     </ClCompile>
     <ClCompile Include="..\..\..\vsf\source\vsf\component\3rd-party\awtk\port\vsf_awtk_port.c">
       <Filter>vsf\component\3rd-party\awtk\port</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\demo\vsfvm_demo\vsfvm_demo.c">
+      <Filter>usrapp\demo\vsfvm_demo</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\vsf\source\vsf\component\3rd-party\vsfvm\extension\vsf\kernel\vsfvm_ext_kernel.c">
+      <Filter>vsf\component\3rd-party\vsfvm\extension\vsf\kernel</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\vsf\source\vsf\component\3rd-party\vsfvm\extension\vsf\libusb\vsfvm_ext_libusb.c">
+      <Filter>vsf\component\3rd-party\vsfvm\extension\vsf\libusb</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\vsf\source\vsf\component\3rd-party\vsfvm\raw\common\vsfvm_objdump.c">
+      <Filter>vsf\component\3rd-party\vsfvm\raw\common</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\vsf\source\vsf\component\3rd-party\vsfvm\raw\compiler\lexer\dart\vsfvm_lexer_dart.c">
+      <Filter>vsf\component\3rd-party\vsfvm\raw\compiler\lexer\dart</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\vsf\source\vsf\component\3rd-party\vsfvm\raw\compiler\lexer\vsfvm_lexer.c">
+      <Filter>vsf\component\3rd-party\vsfvm\raw\compiler\lexer</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\vsf\source\vsf\component\3rd-party\vsfvm\raw\compiler\vsfvm_compiler.c">
+      <Filter>vsf\component\3rd-party\vsfvm\raw\compiler</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\vsf\source\vsf\component\3rd-party\vsfvm\raw\compiler\vsfvm_snapshot.c">
+      <Filter>vsf\component\3rd-party\vsfvm\raw\compiler</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\vsf\source\vsf\component\3rd-party\vsfvm\raw\runtime\vsfvm_runtime.c">
+      <Filter>vsf\component\3rd-party\vsfvm\raw\runtime</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\vsf\source\vsf\component\3rd-party\vsfvm\raw\extension\vsfvm_ext.c">
+      <Filter>vsf\component\3rd-party\vsfvm\raw\extension</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\vsf\source\vsf\component\3rd-party\vsfvm\raw\extension\std\vsfvm_ext_std.c">
+      <Filter>vsf\component\3rd-party\vsfvm\raw\extension\std</Filter>
     </ClCompile>
   </ItemGroup>
   <ItemGroup>

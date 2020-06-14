@@ -74,6 +74,10 @@ extern int usbd_msc_main(int argc, char *argv[]);
 extern int mount_file_main(int argc, char *argv[]);
 #endif
 
+#if APP_CFG_USE_VSFVM_DEMO == ENABLED
+extern int vsfvm_main(int argc, char *argv[]);
+#endif
+
 #if APP_CFG_USE_LINUX_DEMO == ENABLED
 extern int vsfvm_main(int argc, char *argv[]);
 #endif
@@ -158,6 +162,10 @@ int vsf_linux_create_fhs(void)
 
 #if APP_CFG_USE_AUDIO_DEMO == ENABLED
     busybox_bind("/sbin/play_audio", audio_play_main);
+#endif
+
+#if APP_CFG_USE_LINUX_DEMO == ENABLED && APP_CFG_USE_VSFVM_DEMO == ENABLED
+    busybox_bind("/sbin/vsfvm", vsfvm_main);
 #endif
 
 #if APP_CFG_USE_USBD_DEMO == ENABLED

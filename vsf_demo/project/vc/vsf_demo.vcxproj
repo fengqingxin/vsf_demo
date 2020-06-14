@@ -128,6 +128,19 @@
     <ClInclude Include="..\..\..\libpng\pngstruct.h" />
     <ClInclude Include="..\..\..\vsf\source\vsf\component\3rd-party\awtk\port\platforms\vsf\main_loop_vsf.h" />
     <ClInclude Include="..\..\..\vsf\source\vsf\component\3rd-party\awtk\port\vsf_awtk_port.h" />
+    <ClInclude Include="..\..\..\vsf\source\vsf\component\3rd-party\vsfvm\extension\vsf\kernel\vsfvm_ext_kernel.h" />
+    <ClInclude Include="..\..\..\vsf\source\vsf\component\3rd-party\vsfvm\extension\vsf\libusb\vsfvm_ext_libusb.h" />
+    <ClInclude Include="..\..\..\vsf\source\vsf\component\3rd-party\vsfvm\raw\common\vsfvm_bytecode.h" />
+    <ClInclude Include="..\..\..\vsf\source\vsf\component\3rd-party\vsfvm\raw\common\vsfvm_common.h" />
+    <ClInclude Include="..\..\..\vsf\source\vsf\component\3rd-party\vsfvm\raw\common\vsfvm_objdump.h" />
+    <ClInclude Include="..\..\..\vsf\source\vsf\component\3rd-party\vsfvm\raw\compiler\lexer\dart\vsfvm_lexer_dart.h" />
+    <ClInclude Include="..\..\..\vsf\source\vsf\component\3rd-party\vsfvm\raw\compiler\lexer\vsfvm_lexer.h" />
+    <ClInclude Include="..\..\..\vsf\source\vsf\component\3rd-party\vsfvm\raw\compiler\vsfvm_compiler.h" />
+    <ClInclude Include="..\..\..\vsf\source\vsf\component\3rd-party\vsfvm\raw\compiler\vsfvm_snapshot.h" />
+    <ClInclude Include="..\..\..\vsf\source\vsf\component\3rd-party\vsfvm\raw\extension\std\vsfvm_ext_std.h" />
+    <ClInclude Include="..\..\..\vsf\source\vsf\component\3rd-party\vsfvm\raw\runtime\vsfvm_runtime.h" />
+    <ClInclude Include="..\..\..\vsf\source\vsf\component\3rd-party\vsfvm\raw\vsf_vm.h" />
+    <ClInclude Include="..\..\..\vsf\source\vsf\component\3rd-party\vsfvm\raw\vsf_vm_cfg.h" />
     <ClInclude Include="..\..\..\vsf\source\vsf\component\av\audio\decoder\wav\vsf_wav.h" />
     <ClInclude Include="..\..\..\vsf\source\vsf\component\av\audio\driver\winsound\vsf_winsound.h" />
     <ClInclude Include="..\..\..\vsf\source\vsf\component\av\audio\vsf_audio.h" />
@@ -539,6 +552,16 @@
     <ClCompile Include="..\..\..\vsf\source\vsf\component\3rd-party\awtk\port\platforms\vsf\semaphore.c" />
     <ClCompile Include="..\..\..\vsf\source\vsf\component\3rd-party\awtk\port\platforms\vsf\thread.c" />
     <ClCompile Include="..\..\..\vsf\source\vsf\component\3rd-party\awtk\port\vsf_awtk_port.c" />
+    <ClCompile Include="..\..\..\vsf\source\vsf\component\3rd-party\vsfvm\extension\vsf\kernel\vsfvm_ext_kernel.c" />
+    <ClCompile Include="..\..\..\vsf\source\vsf\component\3rd-party\vsfvm\extension\vsf\libusb\vsfvm_ext_libusb.c" />
+    <ClCompile Include="..\..\..\vsf\source\vsf\component\3rd-party\vsfvm\raw\common\vsfvm_objdump.c" />
+    <ClCompile Include="..\..\..\vsf\source\vsf\component\3rd-party\vsfvm\raw\compiler\lexer\dart\vsfvm_lexer_dart.c" />
+    <ClCompile Include="..\..\..\vsf\source\vsf\component\3rd-party\vsfvm\raw\compiler\lexer\vsfvm_lexer.c" />
+    <ClCompile Include="..\..\..\vsf\source\vsf\component\3rd-party\vsfvm\raw\compiler\vsfvm_compiler.c" />
+    <ClCompile Include="..\..\..\vsf\source\vsf\component\3rd-party\vsfvm\raw\compiler\vsfvm_snapshot.c" />
+    <ClCompile Include="..\..\..\vsf\source\vsf\component\3rd-party\vsfvm\raw\extension\std\vsfvm_ext_std.c" />
+    <ClCompile Include="..\..\..\vsf\source\vsf\component\3rd-party\vsfvm\raw\extension\vsfvm_ext.c" />
+    <ClCompile Include="..\..\..\vsf\source\vsf\component\3rd-party\vsfvm\raw\runtime\vsfvm_runtime.c" />
     <ClCompile Include="..\..\..\vsf\source\vsf\component\av\audio\decoder\wav\vsf_wav.c" />
     <ClCompile Include="..\..\..\vsf\source\vsf\component\av\audio\driver\winsound\vsf_winsound.c" />
     <ClCompile Include="..\..\..\vsf\source\vsf\component\av\audio\vsf_audio.c" />
@@ -805,6 +828,7 @@
     </ClCompile>
     <ClCompile Include="..\..\..\VisualBoyAdvance\src\unzip.cpp" />
     <ClCompile Include="..\..\..\VisualBoyAdvance\src\Util.cpp" />
+    <ClCompile Include="..\..\demo\vsfvm_demo\vsfvm_demo.c" />
     <ClCompile Include="..\..\demo\xui_demo\xui_demo.c" />
   </ItemGroup>
   <ItemGroup>

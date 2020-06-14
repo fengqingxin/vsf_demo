@@ -34,6 +34,7 @@
 #   define APP_CFG_USE_USBD_DEMO                        ENABLED
 //  todo: implement audio driver for m484
 #   define APP_CFG_USE_AUDIO_DEMO                       DISABLED
+#   define APP_CFG_USE_VSFVM_DEMO                       ENABLED
 
 #elif   defined(__WIN__)
 
@@ -46,6 +47,7 @@
 #   define APP_CFG_USE_AUDIO_DEMO                       ENABLED
 #   define APP_CFG_USE_XBOOT_XUI_DEMO                   ENABLED
 #   define APP_CFG_USE_AWTK_DEMO                        ENABLED
+#   define APP_CFG_USE_VSFVM_DEMO                       ENABLED
 
 #   if APP_CFG_USE_XBOOT_XUI_DEMO == ENABLED
 #       define APP_CFG_USE_FREETYPE_DEMO                ENABLED
@@ -311,6 +313,17 @@
 
 #   if VSF_USE_USB_HOST == ENABLED && VSF_USE_USB_HOST_UAC == ENABLED
 #       define WEAK_VSF_USBH_UAC_ON_NEW
+#   endif
+
+#   if APP_CFG_USE_VSFVM_DEMO == ENABLED
+#       define WEAK_VSF_PLUG_IN_ON_KERNEL_IDLE_EXTERN                           \
+            extern void vsf_plug_in_on_kernel_idle(void);
+#       define WEAK_VSF_PLUG_IN_ON_KERNEL_IDLE()                                \
+            vsf_plug_in_on_kernel_idle()
+
+#       define WEAK_VSFVM_SET_BYTECODE_IMP
+#       define WEAK_VSFVM_GET_RES_IMP
+#       define WEAK_VSFVM_GET_BYTECODE_IMP
 #   endif
 
 #endif

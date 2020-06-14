@@ -9,7 +9,7 @@ port game emulators to vsf
 * xboot -- MIT
 * freetype-2.10.2 -- FTL
 * zlib -- zlib
-* libpng -- 
+* libpng -- PNG Reference Library License v2
 * jpeg-9c -- 
 
 # patches

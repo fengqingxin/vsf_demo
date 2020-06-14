@@ -45,17 +45,25 @@
 #   define APP_CFG_USE_USBD_DEMO                        ENABLED
 #   define APP_CFG_USE_AUDIO_DEMO                       ENABLED
 #   define APP_CFG_USE_XBOOT_XUI_DEMO                   ENABLED
+#   define APP_CFG_USE_AWTK_DEMO                        ENABLED
 
 #   if APP_CFG_USE_XBOOT_XUI_DEMO == ENABLED
 #       define APP_CFG_USE_FREETYPE_DEMO                ENABLED
 #       define APP_CFG_XBOOT_RES_DIR                    "./winfs_root/ui/"
-#       define VSF_USE_XBOOT                            ENABLED
 #   endif
 
 #endif
 
 
 // component configure
+#if APP_CFG_USE_AWTK_DEMO == ENABLED
+#   define VSF_USE_UI_AWTK                              ENABLED
+#endif
+
+#if APP_CFG_USE_XBOOT_XUI_DEMO == ENABLED
+#   define VSF_USE_XBOOT                                ENABLED
+#endif
+
 #define VSF_USE_HEAP                                    ENABLED
 #   define VSF_HEAP_CFG_MCB_MAGIC_EN                    ENABLED
 

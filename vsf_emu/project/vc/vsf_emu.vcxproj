@@ -126,6 +126,8 @@
     <ClInclude Include="..\..\..\libpng\pnglibconf.h" />
     <ClInclude Include="..\..\..\libpng\pngpriv.h" />
     <ClInclude Include="..\..\..\libpng\pngstruct.h" />
+    <ClInclude Include="..\..\..\vsf\source\vsf\component\3rd-party\awtk\port\platforms\vsf\main_loop_vsf.h" />
+    <ClInclude Include="..\..\..\vsf\source\vsf\component\3rd-party\awtk\port\vsf_awtk_port.h" />
     <ClInclude Include="..\..\..\vsf\source\vsf\component\av\audio\decoder\wav\vsf_wav.h" />
     <ClInclude Include="..\..\..\vsf\source\vsf\component\av\audio\driver\winsound\vsf_winsound.h" />
     <ClInclude Include="..\..\..\vsf\source\vsf\component\av\audio\vsf_audio.h" />
@@ -530,6 +532,13 @@
     <ClCompile Include="..\..\..\libpng\pngwrite.c" />
     <ClCompile Include="..\..\..\libpng\pngwtran.c" />
     <ClCompile Include="..\..\..\libpng\pngwutil.c" />
+    <ClCompile Include="..\..\..\vsf\source\vsf\component\3rd-party\awtk\port\platforms\vsf\fs_os.c" />
+    <ClCompile Include="..\..\..\vsf\source\vsf\component\3rd-party\awtk\port\platforms\vsf\main_loop_vsf.c" />
+    <ClCompile Include="..\..\..\vsf\source\vsf\component\3rd-party\awtk\port\platforms\vsf\mutex.c" />
+    <ClCompile Include="..\..\..\vsf\source\vsf\component\3rd-party\awtk\port\platforms\vsf\platform.c" />
+    <ClCompile Include="..\..\..\vsf\source\vsf\component\3rd-party\awtk\port\platforms\vsf\semaphore.c" />
+    <ClCompile Include="..\..\..\vsf\source\vsf\component\3rd-party\awtk\port\platforms\vsf\thread.c" />
+    <ClCompile Include="..\..\..\vsf\source\vsf\component\3rd-party\awtk\port\vsf_awtk_port.c" />
     <ClCompile Include="..\..\..\vsf\source\vsf\component\av\audio\decoder\wav\vsf_wav.c" />
     <ClCompile Include="..\..\..\vsf\source\vsf\component\av\audio\driver\winsound\vsf_winsound.c" />
     <ClCompile Include="..\..\..\vsf\source\vsf\component\av\audio\vsf_audio.c" />
@@ -718,6 +727,9 @@
     <ClCompile Include="..\..\..\zlib\uncompr.c" />
     <ClCompile Include="..\..\..\zlib\zutil.c" />
     <ClCompile Include="..\..\demo\audio_demo\audio_demo.c" />
+    <ClCompile Include="..\..\demo\awtk_demo\awtk_application.c" />
+    <ClCompile Include="..\..\demo\awtk_demo\awtk_assets.c" />
+    <ClCompile Include="..\..\demo\awtk_demo\awtk_demo.c" />
     <ClCompile Include="..\..\demo\common\usrapp_audio_common.c" />
     <ClCompile Include="..\..\demo\common\usrapp_common.c" />
     <ClCompile Include="..\..\demo\common\usrapp_ui_common.c" />
@@ -797,6 +809,9 @@
   </ItemGroup>
   <ItemGroup>
     <None Include="..\..\..\vsf\source\vsf\shell\sys\linux\include\simple_libc\string" />
+  </ItemGroup>
+  <ItemGroup>
+    <Library Include="lib\awtk\awtk_vsf.lib" />
   </ItemGroup>
   <PropertyGroup Label="Globals">
     <VCProjectVersion>16.0</VCProjectVersion>

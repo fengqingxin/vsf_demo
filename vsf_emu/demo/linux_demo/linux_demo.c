@@ -54,6 +54,10 @@
 extern int lsusb_main(int argc, char *argv[]);
 #endif
 
+#if APP_CFG_USE_AWTK_DEMO == ENABLED
+extern int awtk_main(int argc, char *argv[]);
+#endif
+
 #if APP_CFG_USE_USBH_DEMO == ENABLED
 extern int usbh_main(int argc, char *argv[]);
 #endif
@@ -146,6 +150,10 @@ int vsf_linux_create_fhs(void)
 
 #if APP_CFG_USE_XBOOT_XUI_DEMO == ENABLED
     busybox_bind("/sbin/xui", xui_main);
+#endif
+
+#if APP_CFG_USE_AWTK_DEMO == ENABLED
+    busybox_bind("/sbin/awtk", awtk_main);
 #endif
 
 #if APP_CFG_USE_AUDIO_DEMO == ENABLED

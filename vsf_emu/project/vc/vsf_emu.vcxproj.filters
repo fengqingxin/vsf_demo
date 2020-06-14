@@ -592,6 +592,24 @@
     <Filter Include="usrapp\demo\lib\freetype\builds\vsf">
       <UniqueIdentifier>{46ac2f2c-989e-4ec1-904d-211911aabfa5}</UniqueIdentifier>
     </Filter>
+    <Filter Include="usrapp\demo\awtk_demo">
+      <UniqueIdentifier>{4caaf0df-f641-4d0b-9dcf-09dcee4601e6}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="vsf\component\3rd-party">
+      <UniqueIdentifier>{c38ffd87-96f7-4d05-ad65-d642793ae988}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="vsf\component\3rd-party\awtk">
+      <UniqueIdentifier>{f9f63c7b-ec8e-4610-b514-078fe5863790}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="vsf\component\3rd-party\awtk\port">
+      <UniqueIdentifier>{95f16a06-75f3-46df-8ac0-830dd45adfe1}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="vsf\component\3rd-party\awtk\port\platforms">
+      <UniqueIdentifier>{e4e8d875-30e3-4a27-af45-9317721d11e4}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="vsf\component\3rd-party\awtk\port\platforms\vsf">
+      <UniqueIdentifier>{4d4e8539-6943-4809-9eea-8422ea153869}</UniqueIdentifier>
+    </Filter>
   </ItemGroup>
   <ItemGroup>
     <ClInclude Include="..\..\..\vsf\source\vsf\vsf.h">
@@ -1815,6 +1833,12 @@
     <ClInclude Include="..\..\config\pnglibconf.h">
       <Filter>usrapp\config</Filter>
     </ClInclude>
+    <ClInclude Include="..\..\..\vsf\source\vsf\component\3rd-party\awtk\port\platforms\vsf\main_loop_vsf.h">
+      <Filter>vsf\component\3rd-party\awtk\port\platforms\vsf</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\vsf\source\vsf\component\3rd-party\awtk\port\vsf_awtk_port.h">
+      <Filter>vsf\component\3rd-party\awtk\port</Filter>
+    </ClInclude>
   </ItemGroup>
   <ItemGroup>
     <ClCompile Include="..\..\..\vsf\source\vsf\utilities\compiler\x86\signal.c">
@@ -2849,10 +2873,45 @@
     <ClCompile Include="..\..\..\jpeg-9d\jutils.c">
       <Filter>usrapp\demo\lib\jpeg</Filter>
     </ClCompile>
+    <ClCompile Include="..\..\demo\awtk_demo\awtk_application.c">
+      <Filter>usrapp\demo\awtk_demo</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\demo\awtk_demo\awtk_assets.c">
+      <Filter>usrapp\demo\awtk_demo</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\demo\awtk_demo\awtk_demo.c">
+      <Filter>usrapp\demo\awtk_demo</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\vsf\source\vsf\component\3rd-party\awtk\port\platforms\vsf\fs_os.c">
+      <Filter>vsf\component\3rd-party\awtk\port\platforms\vsf</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\vsf\source\vsf\component\3rd-party\awtk\port\platforms\vsf\main_loop_vsf.c">
+      <Filter>vsf\component\3rd-party\awtk\port\platforms\vsf</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\vsf\source\vsf\component\3rd-party\awtk\port\platforms\vsf\mutex.c">
+      <Filter>vsf\component\3rd-party\awtk\port\platforms\vsf</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\vsf\source\vsf\component\3rd-party\awtk\port\platforms\vsf\platform.c">
+      <Filter>vsf\component\3rd-party\awtk\port\platforms\vsf</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\vsf\source\vsf\component\3rd-party\awtk\port\platforms\vsf\semaphore.c">
+      <Filter>vsf\component\3rd-party\awtk\port\platforms\vsf</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\vsf\source\vsf\component\3rd-party\awtk\port\platforms\vsf\thread.c">
+      <Filter>vsf\component\3rd-party\awtk\port\platforms\vsf</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\vsf\source\vsf\component\3rd-party\awtk\port\vsf_awtk_port.c">
+      <Filter>vsf\component\3rd-party\awtk\port</Filter>
+    </ClCompile>
   </ItemGroup>
   <ItemGroup>
     <None Include="..\..\..\vsf\source\vsf\shell\sys\linux\include\simple_libc\string">
       <Filter>vsf\shell\sys\linux\include\simple_libc</Filter>
     </None>
+  </ItemGroup>
+  <ItemGroup>
+    <Library Include="lib\awtk\awtk_vsf.lib">
+      <Filter>usrapp\demo\awtk_demo</Filter>
+    </Library>
   </ItemGroup>
 </Project>

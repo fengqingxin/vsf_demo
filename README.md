@@ -1,5 +1,5 @@
-# vsf_emu
-port game emulators to vsf
+# vsf_demo
+demos for vsf
 
 # software/library & license
 * vsf_emu -- GPL3.0

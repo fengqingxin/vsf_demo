@@ -1,8 +1,8 @@
  src/GBA.cpp     | 17 ++++++++++++++---
- src/Util.cpp    |  4 ++++
+ src/Util.cpp    |  6 +++++-
  src/gb/GB.cpp   |  6 ++++++
  src/sdl/SDL.cpp | 34 +++++++++++++++++++++++++++++-----
- 4 files changed, 53 insertions(+), 8 deletions(-)
+ 4 files changed, 54 insertions(+), 9 deletions(-)
 
 diff --git a/src/GBA.cpp b/src/GBA.cpp
 index 967688f..abc3b86 100644
@@ -88,7 +88,7 @@ index 967688f..abc3b86 100644
    CPUWriteBMPFile,
    // emuUpdateCPSR
 diff --git a/src/Util.cpp b/src/Util.cpp
-index 9e3b7d9..52a7d11 100644
+index 9e3b7d9..ffe622f 100644
 --- a/src/Util.cpp
 +++ b/src/Util.cpp
 @@ -21,9 +21,11 @@
@@ -119,6 +119,15 @@ index 9e3b7d9..52a7d11 100644
  
  void utilPutDword(u8 *p, u32 value)
  {
+@@ -992,7 +996,7 @@ void utilWriteData(gzFile gzFile, variable_desc *data)
+ 
+ gzFile utilGzOpen(const char *file, const char *mode)
+ {
+-  utilGzWriteFunc = (int (ZEXPORT *)(void *,void * const, unsigned int))gzwrite;
++  utilGzWriteFunc = (int (ZEXPORT *)(gzFile, const voidp, unsigned int))gzwrite;
+   utilGzReadFunc = gzread;
+   utilGzCloseFunc = gzclose;
+ 
 diff --git a/src/gb/GB.cpp b/src/gb/GB.cpp
 index 4536c2d..442f591 100644
 --- a/src/gb/GB.cpp

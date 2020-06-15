@@ -13,12 +13,12 @@ demos for vsf.
 * freetype-2.10.2 -- FTL
 * zlib -- zlib
 * libpng -- PNG Reference Library License v2
-* jpeg-9c -- 
+* jpeg-9d -- 
 * Roboto -- Apache 2.0
 * Font Awesome -- OFD 1.1
 * vsfvm -- Apache 2.0
 
-# patches
+# patches & Usage
 
 ## VisualBoyAdvance
 1. Apply patches/VisualBoyAdvance.patch to VisualBoyAdvance
@@ -31,3 +31,7 @@ demos for vsf.
 ## xboot
 1. switch to test_xui branch
 2. remove assert.h/ctype.h/io.h/malloc.h/math.h/stdarg.h/stdint.h/stdio.h/stdlib.h/string.h/time.h in xboot/src/include
+
+## vsfvm
+1. put xxx.dart script in vsf_emu/project/vc/winfs_root/
+2. run script with command: vsfvm ./winfs_root/xxx.dart

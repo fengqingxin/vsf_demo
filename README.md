@@ -1,7 +1,7 @@
 # vsf_demo
 demos for vsf.
 1. Install Visual Studio with clang support
-2. apply <a href="paches">aptches</a>
+2. apply <a href="patches">patches</a>
 3. Open vsf_demo/project/vc/vsf_demo.sln, compile and run.
 
 # software/library & license

@@ -1,7 +1,7 @@
 # vsf_demo
 demos for vsf.
 1. Install Visual Studio with clang support
-2. apply <a href="patches">patches</a>
+2. apply [patches](#patches)
 3. Open vsf_demo/project/vc/vsf_demo.sln, compile and run.
 
 # software/library & license
@@ -18,7 +18,7 @@ demos for vsf.
 * Font Awesome -- OFD 1.1
 * vsfvm -- Apache 2.0
 
-# <a name="patches">patches</a>
+# patches
 
 ## VisualBoyAdvance
 1. Apply patches/VisualBoyAdvance.patch to VisualBoyAdvance

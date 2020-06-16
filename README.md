@@ -30,7 +30,7 @@ demos for vsf.
 
 ## xboot
 1. switch to test_xui branch
-2. remove assert.h/ctype.h/io.h/malloc.h/math.h/stdarg.h/stdint.h/stdio.h/stdlib.h/string.h/time.h in xboot/src/include
+2. Apply patches/xboot.patch to xboot
 
 ## vsfvm
 1. put xxx.dart script in vsf_emu/project/vc/winfs_root/
